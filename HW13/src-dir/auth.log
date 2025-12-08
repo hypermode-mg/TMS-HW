@@ -1,0 +1,98 @@
+2025-12-07T10:55:03.880229+05:00 ubu24-tst CRON[17388]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-07T10:55:03.885273+05:00 ubu24-tst CRON[17388]: pam_unix(cron:session): session closed for user root
+2025-12-07T10:56:27.676798+05:00 ubu24-tst pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by hypermode(uid=1000)
+2025-12-07T10:56:27.679675+05:00 ubu24-tst pkexec[17682]: hypermode: Executing command [USER=root] [TTY=unknown] [CWD=/home/hypermode] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-12-07T11:05:01.898072+05:00 ubu24-tst CRON[17716]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-07T11:05:01.903695+05:00 ubu24-tst CRON[17716]: pam_unix(cron:session): session closed for user root
+2025-12-07T11:10:57.025162+05:00 ubu24-tst gdm-password]: gkr-pam: unlocked login keyring
+2025-12-07T11:11:02.754358+05:00 ubu24-tst systemd-logind[954]: The system will reboot now!
+2025-12-07T11:11:02.798100+05:00 ubu24-tst systemd-logind[954]: System is rebooting.
+2025-12-07T11:11:02.850316+05:00 ubu24-tst gdm-password]: pam_unix(gdm-password:session): session closed for user hypermode
+2025-12-07T11:11:19.885797+05:00 ubu24-tst systemd-logind[941]: New seat seat0.
+2025-12-07T11:11:19.904429+05:00 ubu24-tst systemd-logind[941]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-12-07T11:11:19.911648+05:00 ubu24-tst systemd-logind[941]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-12-07T11:11:19.917265+05:00 ubu24-tst systemd-logind[941]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-12-07T11:11:19.995652+05:00 ubu24-tst polkitd[909]: Loading rules from directory /etc/polkit-1/rules.d
+2025-12-07T11:11:19.997541+05:00 ubu24-tst polkitd[909]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-12-07T11:11:20.058568+05:00 ubu24-tst polkitd[909]: Finished loading, compiling and executing 16 rules
+2025-12-07T11:11:20.066336+05:00 ubu24-tst polkitd[909]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-12-07T11:11:22.291841+05:00 ubu24-tst sshd[1468]: Server listening on 0.0.0.0 port 12321.
+2025-12-07T11:11:22.292271+05:00 ubu24-tst sshd[1468]: Server listening on :: port 12321.
+2025-12-07T11:11:22.572606+05:00 ubu24-tst gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-12-07T11:11:22.613805+05:00 ubu24-tst systemd-logind[941]: New session c1 of user gdm.
+2025-12-07T11:11:22.662042+05:00 ubu24-tst (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-12-07T11:11:27.687436+05:00 ubu24-tst polkitd[909]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale ru_RU.UTF-8)
+2025-12-07T11:11:47.653707+05:00 ubu24-tst gdm-password]: gkr-pam: unable to locate daemon control file
+2025-12-07T11:11:47.655004+05:00 ubu24-tst gdm-password]: gkr-pam: stashed password to try later in open session
+2025-12-07T11:11:47.676233+05:00 ubu24-tst gdm-password]: pam_unix(gdm-password:session): session opened for user hypermode(uid=1000) by hypermode(uid=0)
+2025-12-07T11:11:47.727102+05:00 ubu24-tst systemd-logind[941]: New session 2 of user hypermode.
+2025-12-07T11:11:47.798846+05:00 ubu24-tst (systemd): pam_unix(systemd-user:session): session opened for user hypermode(uid=1000) by hypermode(uid=0)
+2025-12-07T11:11:48.538219+05:00 ubu24-tst gdm-password]: gkr-pam: unlocked login keyring
+2025-12-07T11:11:48.891398+05:00 ubu24-tst gnome-keyring-daemon[2136]: The PKCS#11 component was already initialized
+2025-12-07T11:11:48.892891+05:00 ubu24-tst gnome-keyring-daemon[2334]: discover_other_daemon: 1
+2025-12-07T11:11:48.912297+05:00 ubu24-tst gnome-keyring-daemon[2136]: The Secret Service was already initialized
+2025-12-07T11:11:48.913144+05:00 ubu24-tst gnome-keyring-daemon[2338]: discover_other_daemon: 1
+2025-12-07T11:11:48.914524+05:00 ubu24-tst gnome-keyring-daemon[2337]: discover_other_daemon: 1
+2025-12-07T11:11:51.726347+05:00 ubu24-tst polkitd[909]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale ru_RU.UTF-8)
+2025-12-07T11:11:53.719307+05:00 ubu24-tst gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-12-07T11:11:53.755817+05:00 ubu24-tst polkitd[909]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale ru_RU.UTF-8) (disconnected from bus)
+2025-12-07T11:11:53.911628+05:00 ubu24-tst systemd-logind[941]: Session c1 logged out. Waiting for processes to exit.
+2025-12-07T11:11:53.965322+05:00 ubu24-tst systemd-logind[941]: Removed session c1.
+2025-12-07T11:12:04.283039+05:00 ubu24-tst (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-12-07T11:12:55.721468+05:00 ubu24-tst pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by hypermode(uid=1000)
+2025-12-07T11:12:55.723618+05:00 ubu24-tst pkexec[3690]: hypermode: Executing command [USER=root] [TTY=unknown] [CWD=/home/hypermode] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-12-07T11:14:34.356187+05:00 ubu24-tst systemd-logind[922]: New seat seat0.
+2025-12-07T11:14:34.356200+05:00 ubu24-tst systemd-logind[922]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-12-07T11:14:34.356212+05:00 ubu24-tst systemd-logind[922]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-12-07T11:14:34.356222+05:00 ubu24-tst systemd-logind[922]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-12-07T11:14:34.356394+05:00 ubu24-tst polkitd[891]: Loading rules from directory /etc/polkit-1/rules.d
+2025-12-07T11:14:34.356405+05:00 ubu24-tst polkitd[891]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-12-07T11:14:34.188795+05:00 ubu24-tst polkitd[891]: Finished loading, compiling and executing 16 rules
+2025-12-07T11:14:34.197362+05:00 ubu24-tst polkitd[891]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-12-07T11:14:36.723560+05:00 ubu24-tst sshd[1449]: Server listening on 0.0.0.0 port 12321.
+2025-12-07T11:14:36.723864+05:00 ubu24-tst sshd[1449]: Server listening on :: port 12321.
+2025-12-07T11:14:37.281211+05:00 ubu24-tst gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-12-07T11:14:37.319339+05:00 ubu24-tst systemd-logind[922]: New session c1 of user gdm.
+2025-12-07T11:14:37.395071+05:00 ubu24-tst (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-12-07T11:14:42.854421+05:00 ubu24-tst polkitd[891]: Registered Authentication Agent for unix-session:c1 (system bus name :1.47 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale ru_RU.UTF-8)
+2025-12-07T11:14:53.483048+05:00 ubu24-tst gdm-password]: gkr-pam: unable to locate daemon control file
+2025-12-07T11:14:53.483182+05:00 ubu24-tst gdm-password]: gkr-pam: stashed password to try later in open session
+2025-12-07T11:14:53.502812+05:00 ubu24-tst gdm-password]: pam_unix(gdm-password:session): session opened for user hypermode(uid=1000) by hypermode(uid=0)
+2025-12-07T11:14:53.540374+05:00 ubu24-tst systemd-logind[922]: New session 2 of user hypermode.
+2025-12-07T11:14:53.623944+05:00 ubu24-tst (systemd): pam_unix(systemd-user:session): session opened for user hypermode(uid=1000) by hypermode(uid=0)
+2025-12-07T11:14:54.393242+05:00 ubu24-tst gdm-password]: gkr-pam: unlocked login keyring
+2025-12-07T11:14:55.198605+05:00 ubu24-tst gnome-keyring-daemon[2307]: discover_other_daemon: 1
+2025-12-07T11:14:55.198933+05:00 ubu24-tst gnome-keyring-daemon[2113]: The PKCS#11 component was already initialized
+2025-12-07T11:14:55.202148+05:00 ubu24-tst gnome-keyring-daemon[2113]: The Secret Service was already initialized
+2025-12-07T11:14:55.202655+05:00 ubu24-tst gnome-keyring-daemon[2313]: discover_other_daemon: 1
+2025-12-07T11:14:55.202898+05:00 ubu24-tst gnome-keyring-daemon[2312]: discover_other_daemon: 1
+2025-12-07T11:14:58.463538+05:00 ubu24-tst polkitd[891]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale ru_RU.UTF-8)
+2025-12-07T11:15:00.219238+05:00 ubu24-tst gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-12-07T11:15:00.257708+05:00 ubu24-tst systemd-logind[922]: Session c1 logged out. Waiting for processes to exit.
+2025-12-07T11:15:00.333281+05:00 ubu24-tst polkitd[891]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.47, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale ru_RU.UTF-8) (disconnected from bus)
+2025-12-07T11:15:00.344069+05:00 ubu24-tst systemd-logind[922]: Removed session c1.
+2025-12-07T11:15:01.384238+05:00 ubu24-tst CRON[2954]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-07T11:15:01.393819+05:00 ubu24-tst CRON[2954]: pam_unix(cron:session): session closed for user root
+2025-12-07T11:16:02.484244+05:00 ubu24-tst pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by hypermode(uid=1000)
+2025-12-07T11:16:02.486066+05:00 ubu24-tst pkexec[4270]: hypermode: Executing command [USER=root] [TTY=unknown] [CWD=/home/hypermode] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-12-07T11:17:01.406877+05:00 ubu24-tst CRON[4336]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-07T11:17:01.414151+05:00 ubu24-tst CRON[4336]: pam_unix(cron:session): session closed for user root
+2025-12-07T11:25:01.599414+05:00 ubu24-tst CRON[4428]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-07T11:25:01.605993+05:00 ubu24-tst CRON[4428]: pam_unix(cron:session): session closed for user root
+2025-12-07T11:30:01.619141+05:00 ubu24-tst CRON[4512]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-07T11:30:01.625163+05:00 ubu24-tst CRON[4512]: pam_unix(cron:session): session closed for user root
+2025-12-07T11:32:19.558623+05:00 ubu24-tst dbus-daemon[879]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-12-07T11:35:01.637883+05:00 ubu24-tst CRON[4622]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-07T11:35:01.643351+05:00 ubu24-tst CRON[4622]: pam_unix(cron:session): session closed for user root
+2025-12-07T11:45:01.663191+05:00 ubu24-tst CRON[4738]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-07T11:45:01.667155+05:00 ubu24-tst CRON[4738]: pam_unix(cron:session): session closed for user root
+2025-12-07T11:55:01.686760+05:00 ubu24-tst CRON[4865]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-07T11:55:01.690618+05:00 ubu24-tst CRON[4865]: pam_unix(cron:session): session closed for user root
+2025-12-07T12:05:01.745842+05:00 ubu24-tst CRON[5125]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-07T12:05:01.751701+05:00 ubu24-tst CRON[5125]: pam_unix(cron:session): session closed for user root
+2025-12-07T12:15:01.764032+05:00 ubu24-tst CRON[5209]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-07T12:15:01.769476+05:00 ubu24-tst CRON[5209]: pam_unix(cron:session): session closed for user root
+2025-12-07T12:16:33.400274+05:00 ubu24-tst gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=hypermode uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=hypermode
+2025-12-07T12:16:43.057110+05:00 ubu24-tst gdm-password]: gkr-pam: unlocked login keyring
+2025-12-07T12:17:01.796633+05:00 ubu24-tst CRON[5303]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-07T12:17:01.802083+05:00 ubu24-tst CRON[5303]: pam_unix(cron:session): session closed for user root

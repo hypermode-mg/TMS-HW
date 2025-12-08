@@ -1,0 +1,1339 @@
+2025-12-07T11:11:02.993393+05:00 ubu24-tst kernel: rfkill: input handler enabled
+2025-12-07T11:11:19.922642+05:00 ubu24-tst kernel: Linux version 6.14.0-36-generic (buildd@lcy02-amd64-067) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #36~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Oct 15 15:45:17 UTC 2 (Ubuntu 6.14.0-36.36~24.04.1-generic 6.14.11)
+2025-12-07T11:11:19.922658+05:00 ubu24-tst kernel: Command line: BOOT_IMAGE=/boot/vmlinuz-6.14.0-36-generic root=UUID=f8d4db51-6a0e-4c25-8eea-1b5d8868647c ro quiet splash vt.handoff=7
+2025-12-07T11:11:19.922661+05:00 ubu24-tst kernel: KERNEL supported cpus:
+2025-12-07T11:11:19.922662+05:00 ubu24-tst kernel:   Intel GenuineIntel
+2025-12-07T11:11:19.922664+05:00 ubu24-tst kernel:   AMD AuthenticAMD
+2025-12-07T11:11:19.922665+05:00 ubu24-tst kernel:   Hygon HygonGenuine
+2025-12-07T11:11:19.922665+05:00 ubu24-tst kernel:   Centaur CentaurHauls
+2025-12-07T11:11:19.922673+05:00 ubu24-tst kernel:   zhaoxin   Shanghai  
+2025-12-07T11:11:19.922675+05:00 ubu24-tst kernel: BIOS-provided physical RAM map:
+2025-12-07T11:11:19.922676+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009ffff] usable
+2025-12-07T11:11:19.922677+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x0000000000100000-0x00000000bdea1fff] usable
+2025-12-07T11:11:19.922678+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000bdea2000-0x00000000bdfb5fff] reserved
+2025-12-07T11:11:19.922679+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000bdfb6000-0x00000000beaecfff] usable
+2025-12-07T11:11:19.927244+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000beaed000-0x00000000bed6cfff] reserved
+2025-12-07T11:11:19.927251+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000bed6d000-0x00000000bed7efff] ACPI data
+2025-12-07T11:11:19.927252+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000bed7f000-0x00000000bedfefff] ACPI NVS
+2025-12-07T11:11:19.927252+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000bedff000-0x00000000bf12cfff] usable
+2025-12-07T11:11:19.927253+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000bf12d000-0x00000000bf130fff] reserved
+2025-12-07T11:11:19.927253+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000bf131000-0x00000000bf132fff] ACPI NVS
+2025-12-07T11:11:19.927254+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000bf133000-0x00000000bf16dfff] usable
+2025-12-07T11:11:19.927262+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000bf16e000-0x00000000bffeffff] reserved
+2025-12-07T11:11:19.927263+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000ffc00000-0x00000000ffffffff] reserved
+2025-12-07T11:11:19.927263+05:00 ubu24-tst kernel: NX (Execute Disable) protection: active
+2025-12-07T11:11:19.927264+05:00 ubu24-tst kernel: APIC: Static calls initialized
+2025-12-07T11:11:19.927264+05:00 ubu24-tst kernel: efi: EFI v2.7 by EDK II
+2025-12-07T11:11:19.927265+05:00 ubu24-tst kernel: efi: ACPI=0xbed7e000 ACPI 2.0=0xbed7e014 SMBIOS=0xbedfd000 MOKvar=0xbeb43000 INITRD=0xbd405a18 RNG=0xbed75018 
+2025-12-07T11:11:19.927268+05:00 ubu24-tst kernel: random: crng init done
+2025-12-07T11:11:19.927273+05:00 ubu24-tst kernel: efi: Remove mem128: MMIO range=[0xffc00000-0xffffffff] (4MB) from e820 map
+2025-12-07T11:11:19.927273+05:00 ubu24-tst kernel: e820: remove [mem 0xffc00000-0xffffffff] reserved
+2025-12-07T11:11:19.927274+05:00 ubu24-tst kernel: SMBIOS 2.5 present.
+2025-12-07T11:11:19.927274+05:00 ubu24-tst kernel: DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+2025-12-07T11:11:19.927275+05:00 ubu24-tst kernel: DMI: Memory slots populated: 0/0
+2025-12-07T11:11:19.927278+05:00 ubu24-tst kernel: secureboot: Secure boot disabled
+2025-12-07T11:11:19.927279+05:00 ubu24-tst kernel: Hypervisor detected: KVM
+2025-12-07T11:11:19.927279+05:00 ubu24-tst kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+2025-12-07T11:11:19.927280+05:00 ubu24-tst kernel: kvm-clock: using sched offset of 4501069870 cycles
+2025-12-07T11:11:19.927280+05:00 ubu24-tst kernel: clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+2025-12-07T11:11:19.927281+05:00 ubu24-tst kernel: tsc: Detected 2893.436 MHz processor
+2025-12-07T11:11:19.927283+05:00 ubu24-tst kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+2025-12-07T11:11:19.927286+05:00 ubu24-tst kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+2025-12-07T11:11:19.927287+05:00 ubu24-tst kernel: last_pfn = 0xbf16e max_arch_pfn = 0x400000000
+2025-12-07T11:11:19.927288+05:00 ubu24-tst kernel: MTRR map: 5 entries (3 fixed + 2 variable; max 35), built from 16 variable MTRRs
+2025-12-07T11:11:19.927288+05:00 ubu24-tst kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+2025-12-07T11:11:19.927289+05:00 ubu24-tst kernel: secureboot: Secure boot disabled
+2025-12-07T11:11:19.927289+05:00 ubu24-tst kernel: RAMDISK: [mem 0xb3487000-0xb8195fff]
+2025-12-07T11:11:19.927292+05:00 ubu24-tst kernel: ACPI: Early table checksum verification disabled
+2025-12-07T11:11:19.927293+05:00 ubu24-tst kernel: ACPI: RSDP 0x00000000BED7E014 000024 (v02 VBOX  )
+2025-12-07T11:11:19.927293+05:00 ubu24-tst kernel: ACPI: XSDT 0x00000000BED7D0E8 000044 (v01 VBOX   VBOXFACP 00000001      01000013)
+2025-12-07T11:11:19.927295+05:00 ubu24-tst kernel: ACPI: FACP 0x00000000BED79000 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+2025-12-07T11:11:19.927295+05:00 ubu24-tst kernel: ACPI: DSDT 0x00000000BED7A000 002353 (v02 VBOX   VBOXBIOS 00000002 VBOX 00029BF3)
+2025-12-07T11:11:19.927374+05:00 ubu24-tst kernel: ACPI: FACS 0x00000000BEDFE000 000040
+2025-12-07T11:11:19.927382+05:00 ubu24-tst kernel: ACPI: APIC 0x00000000BED78000 00005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+2025-12-07T11:11:19.927384+05:00 ubu24-tst kernel: ACPI: SSDT 0x00000000BED77000 000045 (v01 VBOX   VBOXCPUT 00000002 VBOX 00029BF3)
+2025-12-07T11:11:19.927385+05:00 ubu24-tst kernel: ACPI: BGRT 0x00000000BED76000 000038 (v01 INTEL  EDK2     00000002      01000013)
+2025-12-07T11:11:19.927386+05:00 ubu24-tst kernel: ACPI: Reserving FACP table memory at [mem 0xbed79000-0xbed790f3]
+2025-12-07T11:11:19.927421+05:00 ubu24-tst kernel: ACPI: Reserving DSDT table memory at [mem 0xbed7a000-0xbed7c352]
+2025-12-07T11:11:19.927422+05:00 ubu24-tst kernel: ACPI: Reserving FACS table memory at [mem 0xbedfe000-0xbedfe03f]
+2025-12-07T11:11:19.927423+05:00 ubu24-tst kernel: ACPI: Reserving APIC table memory at [mem 0xbed78000-0xbed7805b]
+2025-12-07T11:11:19.927431+05:00 ubu24-tst kernel: ACPI: Reserving SSDT table memory at [mem 0xbed77000-0xbed77044]
+2025-12-07T11:11:19.927433+05:00 ubu24-tst kernel: ACPI: Reserving BGRT table memory at [mem 0xbed76000-0xbed76037]
+2025-12-07T11:11:19.927434+05:00 ubu24-tst kernel: No NUMA configuration found
+2025-12-07T11:11:19.927435+05:00 ubu24-tst kernel: Faking a node at [mem 0x0000000000000000-0x00000000bf16dfff]
+2025-12-07T11:11:19.927436+05:00 ubu24-tst kernel: NODE_DATA(0) allocated [mem 0xbf0a5540-0xbf0cffff]
+2025-12-07T11:11:19.927437+05:00 ubu24-tst kernel: Zone ranges:
+2025-12-07T11:11:19.927443+05:00 ubu24-tst kernel:   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+2025-12-07T11:11:19.927445+05:00 ubu24-tst kernel:   DMA32    [mem 0x0000000001000000-0x00000000bf16dfff]
+2025-12-07T11:11:19.927446+05:00 ubu24-tst kernel:   Normal   empty
+2025-12-07T11:11:19.927447+05:00 ubu24-tst kernel:   Device   empty
+2025-12-07T11:11:19.927448+05:00 ubu24-tst kernel: Movable zone start for each node
+2025-12-07T11:11:19.927449+05:00 ubu24-tst kernel: Early memory node ranges
+2025-12-07T11:11:19.927450+05:00 ubu24-tst kernel:   node   0: [mem 0x0000000000001000-0x000000000009ffff]
+2025-12-07T11:11:19.927456+05:00 ubu24-tst kernel:   node   0: [mem 0x0000000000100000-0x00000000bdea1fff]
+2025-12-07T11:11:19.927459+05:00 ubu24-tst kernel:   node   0: [mem 0x00000000bdfb6000-0x00000000beaecfff]
+2025-12-07T11:11:19.927460+05:00 ubu24-tst kernel:   node   0: [mem 0x00000000bedff000-0x00000000bf12cfff]
+2025-12-07T11:11:19.927461+05:00 ubu24-tst kernel:   node   0: [mem 0x00000000bf133000-0x00000000bf16dfff]
+2025-12-07T11:11:19.927462+05:00 ubu24-tst kernel: Initmem setup node 0 [mem 0x0000000000001000-0x00000000bf16dfff]
+2025-12-07T11:11:19.927463+05:00 ubu24-tst kernel: On node 0, zone DMA: 1 pages in unavailable ranges
+2025-12-07T11:11:19.927469+05:00 ubu24-tst kernel: On node 0, zone DMA: 96 pages in unavailable ranges
+2025-12-07T11:11:19.927471+05:00 ubu24-tst kernel: On node 0, zone DMA32: 276 pages in unavailable ranges
+2025-12-07T11:11:19.927472+05:00 ubu24-tst kernel: On node 0, zone DMA32: 786 pages in unavailable ranges
+2025-12-07T11:11:19.927473+05:00 ubu24-tst kernel: On node 0, zone DMA32: 6 pages in unavailable ranges
+2025-12-07T11:11:19.927474+05:00 ubu24-tst kernel: On node 0, zone DMA32: 3730 pages in unavailable ranges
+2025-12-07T11:11:19.927475+05:00 ubu24-tst kernel: ACPI: PM-Timer IO Port: 0x4008
+2025-12-07T11:11:19.927481+05:00 ubu24-tst kernel: IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-23
+2025-12-07T11:11:19.927483+05:00 ubu24-tst kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+2025-12-07T11:11:19.927484+05:00 ubu24-tst kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+2025-12-07T11:11:19.927485+05:00 ubu24-tst kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+2025-12-07T11:11:19.927486+05:00 ubu24-tst kernel: e820: update [mem 0xbd3c0000-0xbd3e0fff] usable ==> reserved
+2025-12-07T11:11:19.927487+05:00 ubu24-tst kernel: CPU topo: Max. logical packages:   1
+2025-12-07T11:11:19.927487+05:00 ubu24-tst kernel: CPU topo: Max. logical dies:       1
+2025-12-07T11:11:19.927494+05:00 ubu24-tst kernel: CPU topo: Max. dies per package:   1
+2025-12-07T11:11:19.927496+05:00 ubu24-tst kernel: CPU topo: Max. threads per core:   1
+2025-12-07T11:11:19.927497+05:00 ubu24-tst kernel: CPU topo: Num. cores per package:     2
+2025-12-07T11:11:19.927498+05:00 ubu24-tst kernel: CPU topo: Num. threads per package:   2
+2025-12-07T11:11:19.927499+05:00 ubu24-tst kernel: CPU topo: Allowing 2 present CPUs plus 0 hotplug CPUs
+2025-12-07T11:11:19.927500+05:00 ubu24-tst kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+2025-12-07T11:11:19.927507+05:00 ubu24-tst kernel: PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000fffff]
+2025-12-07T11:11:19.927509+05:00 ubu24-tst kernel: PM: hibernation: Registered nosave memory: [mem 0xbd3c0000-0xbd3e0fff]
+2025-12-07T11:11:19.927511+05:00 ubu24-tst kernel: PM: hibernation: Registered nosave memory: [mem 0xbdea2000-0xbdfb5fff]
+2025-12-07T11:11:19.927512+05:00 ubu24-tst kernel: PM: hibernation: Registered nosave memory: [mem 0xbeaed000-0xbedfefff]
+2025-12-07T11:11:19.927513+05:00 ubu24-tst kernel: PM: hibernation: Registered nosave memory: [mem 0xbf12d000-0xbf132fff]
+2025-12-07T11:11:19.927514+05:00 ubu24-tst kernel: [mem 0xbfff0000-0xffffffff] available for PCI devices
+2025-12-07T11:11:19.927515+05:00 ubu24-tst kernel: Booting paravirtualized kernel on KVM
+2025-12-07T11:11:19.927524+05:00 ubu24-tst kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+2025-12-07T11:11:19.927527+05:00 ubu24-tst kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+2025-12-07T11:11:19.927528+05:00 ubu24-tst kernel: percpu: Embedded 88 pages/cpu s237568 r8192 d114688 u1048576
+2025-12-07T11:11:19.927530+05:00 ubu24-tst kernel: pcpu-alloc: s237568 r8192 d114688 u1048576 alloc=1*2097152
+2025-12-07T11:11:19.927531+05:00 ubu24-tst kernel: pcpu-alloc: [0] 0 1 
+2025-12-07T11:11:19.927532+05:00 ubu24-tst kernel: kvm-guest: PV spinlocks enabled
+2025-12-07T11:11:19.927538+05:00 ubu24-tst kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+2025-12-07T11:11:19.927654+05:00 ubu24-tst kernel: Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.14.0-36-generic root=UUID=f8d4db51-6a0e-4c25-8eea-1b5d8868647c ro quiet splash vt.handoff=7
+2025-12-07T11:11:19.927657+05:00 ubu24-tst kernel: Unknown kernel command line parameters "splash BOOT_IMAGE=/boot/vmlinuz-6.14.0-36-generic", will be passed to user space.
+2025-12-07T11:11:19.927659+05:00 ubu24-tst kernel: printk: log buffer data + meta data: 262144 + 917504 = 1179648 bytes
+2025-12-07T11:11:19.927660+05:00 ubu24-tst kernel: Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+2025-12-07T11:11:19.927662+05:00 ubu24-tst kernel: Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+2025-12-07T11:11:19.927703+05:00 ubu24-tst kernel: Fallback order for Node 0: 0 
+2025-12-07T11:11:19.927706+05:00 ubu24-tst kernel: Built 1 zonelists, mobility grouping on.  Total pages: 781537
+2025-12-07T11:11:19.927708+05:00 ubu24-tst kernel: Policy zone: DMA32
+2025-12-07T11:11:19.927709+05:00 ubu24-tst kernel: mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+2025-12-07T11:11:19.927710+05:00 ubu24-tst kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+2025-12-07T11:11:19.927711+05:00 ubu24-tst kernel: Kernel/User page tables isolation: enabled
+2025-12-07T11:11:19.927724+05:00 ubu24-tst kernel: ftrace: allocating 60485 entries in 237 pages
+2025-12-07T11:11:19.927727+05:00 ubu24-tst kernel: ftrace: allocated 237 pages with 6 groups
+2025-12-07T11:11:19.927728+05:00 ubu24-tst kernel: Dynamic Preempt: voluntary
+2025-12-07T11:11:19.927730+05:00 ubu24-tst kernel: rcu: Preemptible hierarchical RCU implementation.
+2025-12-07T11:11:19.927731+05:00 ubu24-tst kernel: rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+2025-12-07T11:11:19.927732+05:00 ubu24-tst kernel: 	Trampoline variant of Tasks RCU enabled.
+2025-12-07T11:11:19.927733+05:00 ubu24-tst kernel: 	Rude variant of Tasks RCU enabled.
+2025-12-07T11:11:19.927742+05:00 ubu24-tst kernel: 	Tracing variant of Tasks RCU enabled.
+2025-12-07T11:11:19.927745+05:00 ubu24-tst kernel: rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+2025-12-07T11:11:19.927746+05:00 ubu24-tst kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+2025-12-07T11:11:19.927747+05:00 ubu24-tst kernel: RCU Tasks: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2025-12-07T11:11:19.927749+05:00 ubu24-tst kernel: RCU Tasks Rude: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2025-12-07T11:11:19.927750+05:00 ubu24-tst kernel: RCU Tasks Trace: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2025-12-07T11:11:19.927757+05:00 ubu24-tst kernel: NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+2025-12-07T11:11:19.927759+05:00 ubu24-tst kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+2025-12-07T11:11:19.927760+05:00 ubu24-tst kernel: Console: colour dummy device 80x25
+2025-12-07T11:11:19.927761+05:00 ubu24-tst kernel: printk: legacy console [tty0] enabled
+2025-12-07T11:11:19.927762+05:00 ubu24-tst kernel: ACPI: Core revision 20240827
+2025-12-07T11:11:19.927764+05:00 ubu24-tst kernel: APIC: Switch to symmetric I/O mode setup
+2025-12-07T11:11:19.927770+05:00 ubu24-tst kernel: x2apic enabled
+2025-12-07T11:11:19.927772+05:00 ubu24-tst kernel: APIC: Switched APIC routing to: physical x2apic
+2025-12-07T11:11:19.927773+05:00 ubu24-tst kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+2025-12-07T11:11:19.927774+05:00 ubu24-tst kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x29b50a8eb5a, max_idle_ns: 440795326788 ns
+2025-12-07T11:11:19.927775+05:00 ubu24-tst kernel: Calibrating delay loop (skipped) preset value.. 5786.87 BogoMIPS (lpj=2893436)
+2025-12-07T11:11:19.927776+05:00 ubu24-tst kernel: Last level iTLB entries: 4KB 512, 2MB 8, 4MB 8
+2025-12-07T11:11:19.927778+05:00 ubu24-tst kernel: Last level dTLB entries: 4KB 512, 2MB 32, 4MB 32, 1GB 0
+2025-12-07T11:11:19.927784+05:00 ubu24-tst kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+2025-12-07T11:11:19.927786+05:00 ubu24-tst kernel: Spectre V2 : Mitigation: Retpolines
+2025-12-07T11:11:19.927788+05:00 ubu24-tst kernel: Spectre V2 : Spectre v2 / SpectreRSB: Filling RSB on context switch and VMEXIT
+2025-12-07T11:11:19.927789+05:00 ubu24-tst kernel: Speculative Store Bypass: Vulnerable
+2025-12-07T11:11:19.927791+05:00 ubu24-tst kernel: MDS: Mitigation: Clear CPU buffers
+2025-12-07T11:11:19.927792+05:00 ubu24-tst kernel: MMIO Stale Data: Unknown: No mitigations
+2025-12-07T11:11:19.927798+05:00 ubu24-tst kernel: SRBDS: Unknown: Dependent on hypervisor status
+2025-12-07T11:11:19.927801+05:00 ubu24-tst kernel: ITS: Mitigation: Aligned branch/return thunks
+2025-12-07T11:11:19.927802+05:00 ubu24-tst kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+2025-12-07T11:11:19.927803+05:00 ubu24-tst kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+2025-12-07T11:11:19.927804+05:00 ubu24-tst kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+2025-12-07T11:11:19.927806+05:00 ubu24-tst kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+2025-12-07T11:11:19.927813+05:00 ubu24-tst kernel: x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+2025-12-07T11:11:19.927817+05:00 ubu24-tst kernel: Freeing SMP alternatives memory: 48K
+2025-12-07T11:11:19.927818+05:00 ubu24-tst kernel: pid_max: default: 32768 minimum: 301
+2025-12-07T11:11:19.927819+05:00 ubu24-tst kernel: LSM: initializing lsm=lockdown,capability,landlock,yama,apparmor,ima,evm
+2025-12-07T11:11:19.927821+05:00 ubu24-tst kernel: landlock: Up and running.
+2025-12-07T11:11:19.927822+05:00 ubu24-tst kernel: Yama: becoming mindful.
+2025-12-07T11:11:19.927823+05:00 ubu24-tst kernel: AppArmor: AppArmor initialized
+2025-12-07T11:11:19.927830+05:00 ubu24-tst kernel: Mount-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+2025-12-07T11:11:19.927833+05:00 ubu24-tst kernel: Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+2025-12-07T11:11:19.927834+05:00 ubu24-tst kernel: smpboot: CPU0: Intel(R) Core(TM) i7-3520M CPU @ 2.90GHz (family: 0x6, model: 0x3a, stepping: 0x9)
+2025-12-07T11:11:19.927835+05:00 ubu24-tst kernel: Performance Events: unsupported p6 CPU model 58 no PMU driver, software events only.
+2025-12-07T11:11:19.927837+05:00 ubu24-tst kernel: signal: max sigframe size: 1776
+2025-12-07T11:11:19.927838+05:00 ubu24-tst kernel: rcu: Hierarchical SRCU implementation.
+2025-12-07T11:11:19.928293+05:00 ubu24-tst kernel: rcu: 	Max phase no-delay instances is 400.
+2025-12-07T11:11:19.928296+05:00 ubu24-tst kernel: Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level
+2025-12-07T11:11:19.928296+05:00 ubu24-tst kernel: NMI watchdog: Perf NMI watchdog permanently disabled
+2025-12-07T11:11:19.928297+05:00 ubu24-tst kernel: smp: Bringing up secondary CPUs ...
+2025-12-07T11:11:19.928297+05:00 ubu24-tst kernel: smpboot: x86: Booting SMP configuration:
+2025-12-07T11:11:19.928298+05:00 ubu24-tst kernel: .... node  #0, CPUs:      #1
+2025-12-07T11:11:19.928298+05:00 ubu24-tst kernel: smp: Brought up 1 node, 2 CPUs
+2025-12-07T11:11:19.928302+05:00 ubu24-tst kernel: smpboot: Total of 2 processors activated (11573.74 BogoMIPS)
+2025-12-07T11:11:19.928303+05:00 ubu24-tst kernel: Memory: 2929728K/3126148K available (21475K kernel code, 4587K rwdata, 15072K rodata, 5140K init, 4412K bss, 189192K reserved, 0K cma-reserved)
+2025-12-07T11:11:19.928303+05:00 ubu24-tst kernel: devtmpfs: initialized
+2025-12-07T11:11:19.928304+05:00 ubu24-tst kernel: x86/mm: Memory block size: 128MB
+2025-12-07T11:11:19.928304+05:00 ubu24-tst kernel: ACPI: PM: Registering ACPI NVS region [mem 0xbed7f000-0xbedfefff] (524288 bytes)
+2025-12-07T11:11:19.928305+05:00 ubu24-tst kernel: ACPI: PM: Registering ACPI NVS region [mem 0xbf131000-0xbf132fff] (8192 bytes)
+2025-12-07T11:11:19.928307+05:00 ubu24-tst kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+2025-12-07T11:11:19.928308+05:00 ubu24-tst kernel: futex hash table entries: 512 (order: 3, 32768 bytes, linear)
+2025-12-07T11:11:19.928309+05:00 ubu24-tst kernel: pinctrl core: initialized pinctrl subsystem
+2025-12-07T11:11:19.928309+05:00 ubu24-tst kernel: PM: RTC time: 06:11:12, date: 2025-12-07
+2025-12-07T11:11:19.928310+05:00 ubu24-tst kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+2025-12-07T11:11:19.928310+05:00 ubu24-tst kernel: DMA: preallocated 512 KiB GFP_KERNEL pool for atomic allocations
+2025-12-07T11:11:19.928313+05:00 ubu24-tst kernel: DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+2025-12-07T11:11:19.928314+05:00 ubu24-tst kernel: DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+2025-12-07T11:11:19.928314+05:00 ubu24-tst kernel: audit: initializing netlink subsys (disabled)
+2025-12-07T11:11:19.928315+05:00 ubu24-tst kernel: audit: type=2000 audit(1765087953.142:1): state=initialized audit_enabled=0 res=1
+2025-12-07T11:11:19.928315+05:00 ubu24-tst kernel: thermal_sys: Registered thermal governor 'fair_share'
+2025-12-07T11:11:19.928316+05:00 ubu24-tst kernel: thermal_sys: Registered thermal governor 'bang_bang'
+2025-12-07T11:11:19.928323+05:00 ubu24-tst kernel: thermal_sys: Registered thermal governor 'step_wise'
+2025-12-07T11:11:19.928324+05:00 ubu24-tst kernel: thermal_sys: Registered thermal governor 'user_space'
+2025-12-07T11:11:19.928325+05:00 ubu24-tst kernel: thermal_sys: Registered thermal governor 'power_allocator'
+2025-12-07T11:11:19.928325+05:00 ubu24-tst kernel: cpuidle: using governor ladder
+2025-12-07T11:11:19.928326+05:00 ubu24-tst kernel: cpuidle: using governor menu
+2025-12-07T11:11:19.928326+05:00 ubu24-tst kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+2025-12-07T11:11:19.928326+05:00 ubu24-tst kernel: PCI: Using configuration type 1 for base access
+2025-12-07T11:11:19.928338+05:00 ubu24-tst kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+2025-12-07T11:11:19.928339+05:00 ubu24-tst kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+2025-12-07T11:11:19.928340+05:00 ubu24-tst kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+2025-12-07T11:11:19.928340+05:00 ubu24-tst kernel: ACPI: Added _OSI(Module Device)
+2025-12-07T11:11:19.928341+05:00 ubu24-tst kernel: ACPI: Added _OSI(Processor Device)
+2025-12-07T11:11:19.928341+05:00 ubu24-tst kernel: ACPI: Added _OSI(Processor Aggregator Device)
+2025-12-07T11:11:19.928347+05:00 ubu24-tst kernel: ACPI: 2 ACPI AML tables successfully acquired and loaded
+2025-12-07T11:11:19.928348+05:00 ubu24-tst kernel: ACPI: Interpreter enabled
+2025-12-07T11:11:19.928349+05:00 ubu24-tst kernel: ACPI: PM: (supports S0 S5)
+2025-12-07T11:11:19.928349+05:00 ubu24-tst kernel: ACPI: Using IOAPIC for interrupt routing
+2025-12-07T11:11:19.928350+05:00 ubu24-tst kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+2025-12-07T11:11:19.928350+05:00 ubu24-tst kernel: PCI: Using E820 reservations for host bridge windows
+2025-12-07T11:11:19.928351+05:00 ubu24-tst kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+2025-12-07T11:11:19.928356+05:00 ubu24-tst kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+2025-12-07T11:11:19.928357+05:00 ubu24-tst kernel: acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI EDR HPX-Type3]
+2025-12-07T11:11:19.928414+05:00 ubu24-tst kernel: acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+2025-12-07T11:11:19.928415+05:00 ubu24-tst kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+2025-12-07T11:11:19.928416+05:00 ubu24-tst kernel: PCI host bridge to bus 0000:00
+2025-12-07T11:11:19.928416+05:00 ubu24-tst kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+2025-12-07T11:11:19.928423+05:00 ubu24-tst kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+2025-12-07T11:11:19.928425+05:00 ubu24-tst kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+2025-12-07T11:11:19.928425+05:00 ubu24-tst kernel: pci_bus 0000:00: root bus resource [mem 0xc0000000-0xfdffffff window]
+2025-12-07T11:11:19.928426+05:00 ubu24-tst kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+2025-12-07T11:11:19.928426+05:00 ubu24-tst kernel: pci 0000:00:00.0: [8086:1237] type 00 class 0x060000 conventional PCI endpoint
+2025-12-07T11:11:19.928427+05:00 ubu24-tst kernel: pci 0000:00:01.0: [8086:7000] type 00 class 0x060100 conventional PCI endpoint
+2025-12-07T11:11:19.928433+05:00 ubu24-tst kernel: pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a conventional PCI endpoint
+2025-12-07T11:11:19.928435+05:00 ubu24-tst kernel: pci 0000:00:01.1: BAR 4 [io  0xc180-0xc18f]
+2025-12-07T11:11:19.928436+05:00 ubu24-tst kernel: pci 0000:00:01.1: BAR 0 [io  0x01f0-0x01f7]: legacy IDE quirk
+2025-12-07T11:11:19.928437+05:00 ubu24-tst kernel: pci 0000:00:01.1: BAR 1 [io  0x03f6]: legacy IDE quirk
+2025-12-07T11:11:19.928438+05:00 ubu24-tst kernel: pci 0000:00:01.1: BAR 2 [io  0x0170-0x0177]: legacy IDE quirk
+2025-12-07T11:11:19.928439+05:00 ubu24-tst kernel: pci 0000:00:01.1: BAR 3 [io  0x0376]: legacy IDE quirk
+2025-12-07T11:11:19.928439+05:00 ubu24-tst kernel: pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000 conventional PCI endpoint
+2025-12-07T11:11:19.928453+05:00 ubu24-tst kernel: pci 0000:00:02.0: BAR 0 [io  0xc170-0xc17f]
+2025-12-07T11:11:19.928456+05:00 ubu24-tst kernel: pci 0000:00:02.0: BAR 1 [mem 0xc0000000-0xc0ffffff pref]
+2025-12-07T11:11:19.928458+05:00 ubu24-tst kernel: pci 0000:00:02.0: BAR 2 [mem 0xc1400000-0xc15fffff]
+2025-12-07T11:11:19.928458+05:00 ubu24-tst kernel: pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+2025-12-07T11:11:19.928459+05:00 ubu24-tst kernel: pci 0000:00:03.0: [8086:100e] type 00 class 0x020000 conventional PCI endpoint
+2025-12-07T11:11:19.928460+05:00 ubu24-tst kernel: pci 0000:00:03.0: BAR 0 [mem 0xc1600000-0xc161ffff]
+2025-12-07T11:11:19.928473+05:00 ubu24-tst kernel: pci 0000:00:03.0: BAR 2 [io  0xc1a0-0xc1a7]
+2025-12-07T11:11:19.928544+05:00 ubu24-tst kernel: pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000 conventional PCI endpoint
+2025-12-07T11:11:19.928546+05:00 ubu24-tst kernel: pci 0000:00:04.0: BAR 0 [io  0xc140-0xc15f]
+2025-12-07T11:11:19.928546+05:00 ubu24-tst kernel: pci 0000:00:04.0: BAR 1 [mem 0xc1000000-0xc13fffff]
+2025-12-07T11:11:19.928547+05:00 ubu24-tst kernel: pci 0000:00:04.0: BAR 2 [mem 0xc1620000-0xc1623fff pref]
+2025-12-07T11:11:19.928547+05:00 ubu24-tst kernel: pci 0000:00:05.0: [8086:2415] type 00 class 0x040100 conventional PCI endpoint
+2025-12-07T11:11:19.928557+05:00 ubu24-tst kernel: pci 0000:00:05.0: BAR 0 [io  0xc000-0xc0ff]
+2025-12-07T11:11:19.928559+05:00 ubu24-tst kernel: pci 0000:00:05.0: BAR 1 [io  0xc100-0xc13f]
+2025-12-07T11:11:19.928559+05:00 ubu24-tst kernel: pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310 conventional PCI endpoint
+2025-12-07T11:11:19.928560+05:00 ubu24-tst kernel: pci 0000:00:06.0: BAR 0 [mem 0xc1627000-0xc1627fff]
+2025-12-07T11:11:19.928560+05:00 ubu24-tst kernel: pci 0000:00:07.0: [8086:7113] type 00 class 0x068000 conventional PCI endpoint
+2025-12-07T11:11:19.928561+05:00 ubu24-tst kernel: pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+2025-12-07T11:11:19.928561+05:00 ubu24-tst kernel: pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+2025-12-07T11:11:19.928567+05:00 ubu24-tst kernel: pci 0000:00:0b.0: [8086:265c] type 00 class 0x0c0320 conventional PCI endpoint
+2025-12-07T11:11:19.928568+05:00 ubu24-tst kernel: pci 0000:00:0b.0: BAR 0 [mem 0xc1626000-0xc1626fff]
+2025-12-07T11:11:19.928569+05:00 ubu24-tst kernel: pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601 conventional PCI endpoint
+2025-12-07T11:11:19.928569+05:00 ubu24-tst kernel: pci 0000:00:0d.0: BAR 0 [io  0xc198-0xc19f]
+2025-12-07T11:11:19.928570+05:00 ubu24-tst kernel: pci 0000:00:0d.0: BAR 1 [io  0xc1ac-0xc1af]
+2025-12-07T11:11:19.928570+05:00 ubu24-tst kernel: pci 0000:00:0d.0: BAR 2 [io  0xc190-0xc197]
+2025-12-07T11:11:19.928576+05:00 ubu24-tst kernel: pci 0000:00:0d.0: BAR 3 [io  0xc1a8-0xc1ab]
+2025-12-07T11:11:19.928577+05:00 ubu24-tst kernel: pci 0000:00:0d.0: BAR 4 [io  0xc160-0xc16f]
+2025-12-07T11:11:19.928578+05:00 ubu24-tst kernel: pci 0000:00:0d.0: BAR 5 [mem 0xc1624000-0xc1625fff]
+2025-12-07T11:11:19.928578+05:00 ubu24-tst kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 10
+2025-12-07T11:11:19.928578+05:00 ubu24-tst kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+2025-12-07T11:11:19.928579+05:00 ubu24-tst kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 11
+2025-12-07T11:11:19.928579+05:00 ubu24-tst kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+2025-12-07T11:11:19.928585+05:00 ubu24-tst kernel: iommu: Default domain type: Translated
+2025-12-07T11:11:19.928586+05:00 ubu24-tst kernel: iommu: DMA domain TLB invalidation policy: lazy mode
+2025-12-07T11:11:19.928587+05:00 ubu24-tst kernel: SCSI subsystem initialized
+2025-12-07T11:11:19.928587+05:00 ubu24-tst kernel: libata version 3.00 loaded.
+2025-12-07T11:11:19.928588+05:00 ubu24-tst kernel: ACPI: bus type USB registered
+2025-12-07T11:11:19.928588+05:00 ubu24-tst kernel: usbcore: registered new interface driver usbfs
+2025-12-07T11:11:19.928594+05:00 ubu24-tst kernel: usbcore: registered new interface driver hub
+2025-12-07T11:11:19.928595+05:00 ubu24-tst kernel: usbcore: registered new device driver usb
+2025-12-07T11:11:19.928596+05:00 ubu24-tst kernel: pps_core: LinuxPPS API ver. 1 registered
+2025-12-07T11:11:19.928596+05:00 ubu24-tst kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+2025-12-07T11:11:19.928597+05:00 ubu24-tst kernel: PTP clock support registered
+2025-12-07T11:11:19.928597+05:00 ubu24-tst kernel: EDAC MC: Ver: 3.0.0
+2025-12-07T11:11:19.928603+05:00 ubu24-tst kernel: efivars: Registered efivars operations
+2025-12-07T11:11:19.928604+05:00 ubu24-tst kernel: NetLabel: Initializing
+2025-12-07T11:11:19.928604+05:00 ubu24-tst kernel: NetLabel:  domain hash size = 128
+2025-12-07T11:11:19.928605+05:00 ubu24-tst kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+2025-12-07T11:11:19.928605+05:00 ubu24-tst kernel: NetLabel:  unlabeled traffic allowed by default
+2025-12-07T11:11:19.928606+05:00 ubu24-tst kernel: mctp: management component transport protocol core
+2025-12-07T11:11:19.928606+05:00 ubu24-tst kernel: NET: Registered PF_MCTP protocol family
+2025-12-07T11:11:19.928612+05:00 ubu24-tst kernel: PCI: Using ACPI for IRQ routing
+2025-12-07T11:11:19.928613+05:00 ubu24-tst kernel: PCI: pci_cache_line_size set to 64 bytes
+2025-12-07T11:11:19.928613+05:00 ubu24-tst kernel: e820: reserve RAM buffer [mem 0xbd3c0000-0xbfffffff]
+2025-12-07T11:11:19.928614+05:00 ubu24-tst kernel: e820: reserve RAM buffer [mem 0xbdea2000-0xbfffffff]
+2025-12-07T11:11:19.928614+05:00 ubu24-tst kernel: e820: reserve RAM buffer [mem 0xbeaed000-0xbfffffff]
+2025-12-07T11:11:19.928615+05:00 ubu24-tst kernel: e820: reserve RAM buffer [mem 0xbf12d000-0xbfffffff]
+2025-12-07T11:11:19.928623+05:00 ubu24-tst kernel: e820: reserve RAM buffer [mem 0xbf16e000-0xbfffffff]
+2025-12-07T11:11:19.928625+05:00 ubu24-tst kernel: pci 0000:00:02.0: vgaarb: setting as boot VGA device
+2025-12-07T11:11:19.928626+05:00 ubu24-tst kernel: pci 0000:00:02.0: vgaarb: bridge control possible
+2025-12-07T11:11:19.928627+05:00 ubu24-tst kernel: pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+2025-12-07T11:11:19.928628+05:00 ubu24-tst kernel: vgaarb: loaded
+2025-12-07T11:11:19.928629+05:00 ubu24-tst kernel: clocksource: Switched to clocksource kvm-clock
+2025-12-07T11:11:19.928629+05:00 ubu24-tst kernel: VFS: Disk quotas dquot_6.6.0
+2025-12-07T11:11:19.928643+05:00 ubu24-tst kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+2025-12-07T11:11:19.928647+05:00 ubu24-tst kernel: AppArmor: AppArmor Filesystem Enabled
+2025-12-07T11:11:19.928648+05:00 ubu24-tst kernel: pnp: PnP ACPI init
+2025-12-07T11:11:19.928649+05:00 ubu24-tst kernel: pnp: PnP ACPI: found 2 devices
+2025-12-07T11:11:19.928653+05:00 ubu24-tst kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+2025-12-07T11:11:19.928654+05:00 ubu24-tst kernel: NET: Registered PF_INET protocol family
+2025-12-07T11:11:19.928670+05:00 ubu24-tst kernel: IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)
+2025-12-07T11:11:19.928674+05:00 ubu24-tst kernel: tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes, linear)
+2025-12-07T11:11:19.928675+05:00 ubu24-tst kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+2025-12-07T11:11:19.928676+05:00 ubu24-tst kernel: TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)
+2025-12-07T11:11:19.928677+05:00 ubu24-tst kernel: TCP bind hash table entries: 32768 (order: 8, 1048576 bytes, linear)
+2025-12-07T11:11:19.928678+05:00 ubu24-tst kernel: TCP: Hash tables configured (established 32768 bind 32768)
+2025-12-07T11:11:19.928691+05:00 ubu24-tst kernel: MPTCP token hash table entries: 4096 (order: 4, 98304 bytes, linear)
+2025-12-07T11:11:19.928694+05:00 ubu24-tst kernel: UDP hash table entries: 2048 (order: 5, 131072 bytes, linear)
+2025-12-07T11:11:19.928696+05:00 ubu24-tst kernel: UDP-Lite hash table entries: 2048 (order: 5, 131072 bytes, linear)
+2025-12-07T11:11:19.928697+05:00 ubu24-tst kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+2025-12-07T11:11:19.928698+05:00 ubu24-tst kernel: NET: Registered PF_XDP protocol family
+2025-12-07T11:11:19.928699+05:00 ubu24-tst kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+2025-12-07T11:11:19.928701+05:00 ubu24-tst kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+2025-12-07T11:11:19.928739+05:00 ubu24-tst kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+2025-12-07T11:11:19.928744+05:00 ubu24-tst kernel: pci_bus 0000:00: resource 7 [mem 0xc0000000-0xfdffffff window]
+2025-12-07T11:11:19.928745+05:00 ubu24-tst kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+2025-12-07T11:11:19.928746+05:00 ubu24-tst kernel: PCI: CLS 0 bytes, default 64
+2025-12-07T11:11:19.928747+05:00 ubu24-tst kernel: Trying to unpack rootfs image as initramfs...
+2025-12-07T11:11:19.928748+05:00 ubu24-tst kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x29b50a8eb5a, max_idle_ns: 440795326788 ns
+2025-12-07T11:11:19.928763+05:00 ubu24-tst kernel: clocksource: Switched to clocksource tsc
+2025-12-07T11:11:19.928766+05:00 ubu24-tst kernel: platform rtc_cmos: registered platform RTC device (no PNP device found)
+2025-12-07T11:11:19.928767+05:00 ubu24-tst kernel: Initialise system trusted keyrings
+2025-12-07T11:11:19.928768+05:00 ubu24-tst kernel: Key type blacklist registered
+2025-12-07T11:11:19.928768+05:00 ubu24-tst kernel: workingset: timestamp_bits=36 max_order=20 bucket_order=0
+2025-12-07T11:11:19.928769+05:00 ubu24-tst kernel: zbud: loaded
+2025-12-07T11:11:19.929011+05:00 ubu24-tst kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+2025-12-07T11:11:19.929030+05:00 ubu24-tst kernel: fuse: init (API version 7.42)
+2025-12-07T11:11:19.929035+05:00 ubu24-tst kernel: integrity: Platform Keyring initialized
+2025-12-07T11:11:19.929036+05:00 ubu24-tst kernel: integrity: Machine keyring initialized
+2025-12-07T11:11:19.929037+05:00 ubu24-tst kernel: Key type asymmetric registered
+2025-12-07T11:11:19.929038+05:00 ubu24-tst kernel: Asymmetric key parser 'x509' registered
+2025-12-07T11:11:19.929039+05:00 ubu24-tst kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 243)
+2025-12-07T11:11:19.929056+05:00 ubu24-tst kernel: io scheduler mq-deadline registered
+2025-12-07T11:11:19.929060+05:00 ubu24-tst kernel: ledtrig-cpu: registered to indicate activity on CPUs
+2025-12-07T11:11:19.929062+05:00 ubu24-tst kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+2025-12-07T11:11:19.929063+05:00 ubu24-tst kernel: ACPI: AC: AC Adapter [AC] (on-line)
+2025-12-07T11:11:19.929064+05:00 ubu24-tst kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+2025-12-07T11:11:19.929065+05:00 ubu24-tst kernel: ACPI: button: Power Button [PWRF]
+2025-12-07T11:11:19.937756+05:00 ubu24-tst kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+2025-12-07T11:11:19.937769+05:00 ubu24-tst kernel: ACPI: button: Sleep Button [SLPF]
+2025-12-07T11:11:19.937771+05:00 ubu24-tst kernel: ACPI: battery: Slot [BAT0] (battery present)
+2025-12-07T11:11:19.937773+05:00 ubu24-tst kernel: Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+2025-12-07T11:11:19.937774+05:00 ubu24-tst kernel: Linux agpgart interface v0.103
+2025-12-07T11:11:19.937775+05:00 ubu24-tst kernel: loop: module loaded
+2025-12-07T11:11:19.937776+05:00 ubu24-tst kernel: ata_piix 0000:00:01.1: version 2.13
+2025-12-07T11:11:19.937802+05:00 ubu24-tst kernel: scsi host0: ata_piix
+2025-12-07T11:11:19.937805+05:00 ubu24-tst kernel: scsi host1: ata_piix
+2025-12-07T11:11:19.937806+05:00 ubu24-tst kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xc180 irq 14 lpm-pol 0
+2025-12-07T11:11:19.937807+05:00 ubu24-tst kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xc188 irq 15 lpm-pol 0
+2025-12-07T11:11:19.937808+05:00 ubu24-tst kernel: ACPI: bus type drm_connector registered
+2025-12-07T11:11:19.937810+05:00 ubu24-tst kernel: tun: Universal TUN/TAP device driver, 1.6
+2025-12-07T11:11:19.937822+05:00 ubu24-tst kernel: PPP generic driver version 2.4.2
+2025-12-07T11:11:19.937824+05:00 ubu24-tst kernel: ohci-pci 0000:00:06.0: OHCI PCI host controller
+2025-12-07T11:11:19.937826+05:00 ubu24-tst kernel: ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+2025-12-07T11:11:19.937827+05:00 ubu24-tst kernel: ohci-pci 0000:00:06.0: irq 22, io mem 0xc1627000
+2025-12-07T11:11:19.937828+05:00 ubu24-tst kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.14
+2025-12-07T11:11:19.937829+05:00 ubu24-tst kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+2025-12-07T11:11:19.937830+05:00 ubu24-tst kernel: usb usb1: Product: OHCI PCI host controller
+2025-12-07T11:11:19.937842+05:00 ubu24-tst kernel: usb usb1: Manufacturer: Linux 6.14.0-36-generic ohci_hcd
+2025-12-07T11:11:19.937844+05:00 ubu24-tst kernel: usb usb1: SerialNumber: 0000:00:06.0
+2025-12-07T11:11:19.937845+05:00 ubu24-tst kernel: hub 1-0:1.0: USB hub found
+2025-12-07T11:11:19.937846+05:00 ubu24-tst kernel: hub 1-0:1.0: 12 ports detected
+2025-12-07T11:11:19.937847+05:00 ubu24-tst kernel: ehci-pci 0000:00:0b.0: EHCI Host Controller
+2025-12-07T11:11:19.937848+05:00 ubu24-tst kernel: ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 2
+2025-12-07T11:11:19.937860+05:00 ubu24-tst kernel: ehci-pci 0000:00:0b.0: irq 19, io mem 0xc1626000
+2025-12-07T11:11:19.937862+05:00 ubu24-tst kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+2025-12-07T11:11:19.937863+05:00 ubu24-tst kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+2025-12-07T11:11:19.937864+05:00 ubu24-tst kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+2025-12-07T11:11:19.937865+05:00 ubu24-tst kernel: mousedev: PS/2 mouse device common for all mice
+2025-12-07T11:11:19.937866+05:00 ubu24-tst kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+2025-12-07T11:11:19.937878+05:00 ubu24-tst kernel: rtc_cmos rtc_cmos: registered as rtc0
+2025-12-07T11:11:19.937880+05:00 ubu24-tst kernel: rtc_cmos rtc_cmos: setting system clock to 2025-12-07T06:11:12 UTC (1765087872)
+2025-12-07T11:11:19.937881+05:00 ubu24-tst kernel: rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+2025-12-07T11:11:19.937882+05:00 ubu24-tst kernel: i2c_dev: i2c /dev entries driver
+2025-12-07T11:11:19.937889+05:00 ubu24-tst kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+2025-12-07T11:11:19.937891+05:00 ubu24-tst kernel: device-mapper: uevent: version 1.0.3
+2025-12-07T11:11:19.937892+05:00 ubu24-tst kernel: device-mapper: ioctl: 4.49.0-ioctl (2025-01-17) initialised: dm-devel@lists.linux.dev
+2025-12-07T11:11:19.937904+05:00 ubu24-tst kernel: intel_pstate: CPU model not supported
+2025-12-07T11:11:19.937906+05:00 ubu24-tst kernel: simple-framebuffer simple-framebuffer.0: [drm] Registered 1 planes with drm panic
+2025-12-07T11:11:19.937907+05:00 ubu24-tst kernel: [drm] Initialized simpledrm 1.0.0 for simple-framebuffer.0 on minor 0
+2025-12-07T11:11:19.937908+05:00 ubu24-tst kernel: fbcon: Deferring console take-over
+2025-12-07T11:11:19.937910+05:00 ubu24-tst kernel: simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+2025-12-07T11:11:19.937910+05:00 ubu24-tst kernel: ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+2025-12-07T11:11:19.937922+05:00 ubu24-tst kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.14
+2025-12-07T11:11:19.937924+05:00 ubu24-tst kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+2025-12-07T11:11:19.937925+05:00 ubu24-tst kernel: usb usb2: Product: EHCI Host Controller
+2025-12-07T11:11:19.937926+05:00 ubu24-tst kernel: usb usb2: Manufacturer: Linux 6.14.0-36-generic ehci_hcd
+2025-12-07T11:11:19.937927+05:00 ubu24-tst kernel: usb usb2: SerialNumber: 0000:00:0b.0
+2025-12-07T11:11:19.937928+05:00 ubu24-tst kernel: hub 2-0:1.0: USB hub found
+2025-12-07T11:11:19.937940+05:00 ubu24-tst kernel: hub 2-0:1.0: 12 ports detected
+2025-12-07T11:11:19.937942+05:00 ubu24-tst kernel: drop_monitor: Initializing network drop monitor service
+2025-12-07T11:11:19.937943+05:00 ubu24-tst kernel: NET: Registered PF_INET6 protocol family
+2025-12-07T11:11:19.937944+05:00 ubu24-tst kernel: Freeing initrd memory: 78908K
+2025-12-07T11:11:19.937945+05:00 ubu24-tst kernel: ata1.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+2025-12-07T11:11:19.937946+05:00 ubu24-tst kernel: scsi 0:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+2025-12-07T11:11:19.937947+05:00 ubu24-tst kernel: sr 0:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+2025-12-07T11:11:19.937959+05:00 ubu24-tst kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+2025-12-07T11:11:19.937961+05:00 ubu24-tst kernel: Segment Routing with IPv6
+2025-12-07T11:11:19.937963+05:00 ubu24-tst kernel: In-situ OAM (IOAM) with IPv6
+2025-12-07T11:11:19.937964+05:00 ubu24-tst kernel: NET: Registered PF_PACKET protocol family
+2025-12-07T11:11:19.937965+05:00 ubu24-tst kernel: Key type dns_resolver registered
+2025-12-07T11:11:19.937966+05:00 ubu24-tst kernel: IPI shorthand broadcast: enabled
+2025-12-07T11:11:19.937977+05:00 ubu24-tst kernel: sr 0:0:0:0: Attached scsi CD-ROM sr0
+2025-12-07T11:11:19.937979+05:00 ubu24-tst kernel: sr 0:0:0:0: Attached scsi generic sg0 type 5
+2025-12-07T11:11:19.937980+05:00 ubu24-tst kernel: sched_clock: Marking stable (635042797, 907729)->(640964687, -5014161)
+2025-12-07T11:11:19.937981+05:00 ubu24-tst kernel: registered taskstats version 1
+2025-12-07T11:11:19.937983+05:00 ubu24-tst kernel: Loading compiled-in X.509 certificates
+2025-12-07T11:11:19.937984+05:00 ubu24-tst kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 8b36fd28f65dfd2d1aa9217f7ad04c787ba44f35'
+2025-12-07T11:11:19.937985+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing 2025 Kmod: d541cef61dc7e793b7eb7e899970a2eef0b5dc8c'
+2025-12-07T11:11:19.937997+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+2025-12-07T11:11:19.937999+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+2025-12-07T11:11:19.938000+05:00 ubu24-tst kernel: blacklist: Loading compiled-in revocation X.509 certificates
+2025-12-07T11:11:19.938001+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+2025-12-07T11:11:19.938002+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+2025-12-07T11:11:19.938003+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+2025-12-07T11:11:19.938015+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+2025-12-07T11:11:19.938017+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+2025-12-07T11:11:19.938018+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+2025-12-07T11:11:19.938019+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+2025-12-07T11:11:19.938020+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+2025-12-07T11:11:19.938031+05:00 ubu24-tst kernel: Demotion targets for Node 0: null
+2025-12-07T11:11:19.938033+05:00 ubu24-tst kernel: Key type .fscrypt registered
+2025-12-07T11:11:19.938034+05:00 ubu24-tst kernel: Key type fscrypt-provisioning registered
+2025-12-07T11:11:19.938035+05:00 ubu24-tst kernel: Key type encrypted registered
+2025-12-07T11:11:19.938036+05:00 ubu24-tst kernel: AppArmor: AppArmor sha256 policy hashing enabled
+2025-12-07T11:11:19.938037+05:00 ubu24-tst kernel: ima: No TPM chip found, activating TPM-bypass!
+2025-12-07T11:11:19.938116+05:00 ubu24-tst kernel: Loading compiled-in module X.509 certificates
+2025-12-07T11:11:19.942720+05:00 ubu24-tst kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 8b36fd28f65dfd2d1aa9217f7ad04c787ba44f35'
+2025-12-07T11:11:19.942725+05:00 ubu24-tst kernel: ima: Allocated hash algorithm: sha256
+2025-12-07T11:11:19.942727+05:00 ubu24-tst kernel: ima: No architecture policies found
+2025-12-07T11:11:19.942728+05:00 ubu24-tst kernel: evm: Initialising EVM extended attributes:
+2025-12-07T11:11:19.942729+05:00 ubu24-tst kernel: evm: security.selinux
+2025-12-07T11:11:19.942730+05:00 ubu24-tst kernel: evm: security.SMACK64
+2025-12-07T11:11:19.942756+05:00 ubu24-tst kernel: evm: security.SMACK64EXEC
+2025-12-07T11:11:19.942760+05:00 ubu24-tst kernel: evm: security.SMACK64TRANSMUTE
+2025-12-07T11:11:19.942761+05:00 ubu24-tst kernel: evm: security.SMACK64MMAP
+2025-12-07T11:11:19.942764+05:00 ubu24-tst kernel: evm: security.apparmor
+2025-12-07T11:11:19.942766+05:00 ubu24-tst kernel: evm: security.ima
+2025-12-07T11:11:19.942769+05:00 ubu24-tst kernel: evm: security.capability
+2025-12-07T11:11:19.943004+05:00 ubu24-tst kernel: evm: HMAC attrs: 0x1
+2025-12-07T11:11:19.943010+05:00 ubu24-tst kernel: PM:   Magic number: 5:812:164
+2025-12-07T11:11:19.943011+05:00 ubu24-tst kernel: RAS: Correctable Errors collector initialized.
+2025-12-07T11:11:19.943012+05:00 ubu24-tst kernel: clk: Disabling unused clocks
+2025-12-07T11:11:19.943012+05:00 ubu24-tst kernel: PM: genpd: Disabling unused power domains
+2025-12-07T11:11:19.943013+05:00 ubu24-tst kernel: Freeing unused decrypted memory: 2028K
+2025-12-07T11:11:19.943025+05:00 ubu24-tst kernel: Freeing unused kernel image (initmem) memory: 5140K
+2025-12-07T11:11:19.943027+05:00 ubu24-tst kernel: Write protecting the kernel read-only data: 38912k
+2025-12-07T11:11:19.943028+05:00 ubu24-tst kernel: Freeing unused kernel image (text/rodata gap) memory: 1052K
+2025-12-07T11:11:19.943029+05:00 ubu24-tst kernel: Freeing unused kernel image (rodata/data gap) memory: 1312K
+2025-12-07T11:11:19.943030+05:00 ubu24-tst kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+2025-12-07T11:11:19.943031+05:00 ubu24-tst kernel: x86/mm: Checking user space page tables
+2025-12-07T11:11:19.943032+05:00 ubu24-tst kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+2025-12-07T11:11:19.943043+05:00 ubu24-tst kernel: Run /init as init process
+2025-12-07T11:11:19.943044+05:00 ubu24-tst kernel:   with arguments:
+2025-12-07T11:11:19.943045+05:00 ubu24-tst kernel:     /init
+2025-12-07T11:11:19.943045+05:00 ubu24-tst kernel:     splash
+2025-12-07T11:11:19.943046+05:00 ubu24-tst kernel:   with environment:
+2025-12-07T11:11:19.943046+05:00 ubu24-tst kernel:     HOME=/
+2025-12-07T11:11:19.943053+05:00 ubu24-tst kernel:     TERM=linux
+2025-12-07T11:11:19.943054+05:00 ubu24-tst kernel:     BOOT_IMAGE=/boot/vmlinuz-6.14.0-36-generic
+2025-12-07T11:11:19.943054+05:00 ubu24-tst kernel: usb 1-1: new full-speed USB device number 2 using ohci-pci
+2025-12-07T11:11:19.943055+05:00 ubu24-tst kernel: ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+2025-12-07T11:11:19.943055+05:00 ubu24-tst kernel: input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4
+2025-12-07T11:11:19.943056+05:00 ubu24-tst kernel: ahci 0000:00:0d.0: version 3.0
+2025-12-07T11:11:19.943056+05:00 ubu24-tst kernel: ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+2025-12-07T11:11:19.943062+05:00 ubu24-tst kernel: ahci 0000:00:0d.0: AHCI vers 0001.0100, 32 command slots, 3 Gbps, SATA mode
+2025-12-07T11:11:19.943063+05:00 ubu24-tst kernel: ahci 0000:00:0d.0: 3/3 ports implemented (port mask 0x7)
+2025-12-07T11:11:19.943064+05:00 ubu24-tst kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+2025-12-07T11:11:19.943064+05:00 ubu24-tst kernel: scsi host2: ahci
+2025-12-07T11:11:19.943064+05:00 ubu24-tst kernel: scsi host3: ahci
+2025-12-07T11:11:19.943065+05:00 ubu24-tst kernel: scsi host4: ahci
+2025-12-07T11:11:19.943071+05:00 ubu24-tst kernel: ata3: SATA max UDMA/133 abar m8192@0xc1624000 port 0xc1624100 irq 21 lpm-pol 0
+2025-12-07T11:11:19.943072+05:00 ubu24-tst kernel: ata4: SATA max UDMA/133 abar m8192@0xc1624000 port 0xc1624180 irq 21 lpm-pol 0
+2025-12-07T11:11:19.943072+05:00 ubu24-tst kernel: ata5: SATA max UDMA/133 abar m8192@0xc1624000 port 0xc1624200 irq 21 lpm-pol 0
+2025-12-07T11:11:19.943073+05:00 ubu24-tst kernel: e1000: Intel(R) PRO/1000 Network Driver
+2025-12-07T11:11:19.943073+05:00 ubu24-tst kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+2025-12-07T11:11:19.943074+05:00 ubu24-tst kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+2025-12-07T11:11:19.943079+05:00 ubu24-tst kernel: usb 1-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+2025-12-07T11:11:19.943081+05:00 ubu24-tst kernel: usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+2025-12-07T11:11:19.943081+05:00 ubu24-tst kernel: usb 1-1: Product: USB Tablet
+2025-12-07T11:11:19.943081+05:00 ubu24-tst kernel: usb 1-1: Manufacturer: VirtualBox
+2025-12-07T11:11:19.943082+05:00 ubu24-tst kernel: hid: raw HID events driver (C) Jiri Kosina
+2025-12-07T11:11:19.943082+05:00 ubu24-tst kernel: ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+2025-12-07T11:11:19.943083+05:00 ubu24-tst kernel: ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+2025-12-07T11:11:19.943088+05:00 ubu24-tst kernel: ata3.00: 83886080 sectors, multi 128: LBA48 NCQ (depth 32)
+2025-12-07T11:11:19.943090+05:00 ubu24-tst kernel: ata3.00: configured for UDMA/133
+2025-12-07T11:11:19.943090+05:00 ubu24-tst kernel: scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+2025-12-07T11:11:19.943091+05:00 ubu24-tst kernel: sd 2:0:0:0: Attached scsi generic sg1 type 0
+2025-12-07T11:11:19.943091+05:00 ubu24-tst kernel: sd 2:0:0:0: [sda] 83886080 512-byte logical blocks: (42.9 GB/40.0 GiB)
+2025-12-07T11:11:19.943091+05:00 ubu24-tst kernel: sd 2:0:0:0: [sda] Write Protect is off
+2025-12-07T11:11:19.943097+05:00 ubu24-tst kernel: sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+2025-12-07T11:11:19.943098+05:00 ubu24-tst kernel: sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+2025-12-07T11:11:19.943099+05:00 ubu24-tst kernel: sd 2:0:0:0: [sda] Preferred minimum I/O size 512 bytes
+2025-12-07T11:11:19.943099+05:00 ubu24-tst kernel:  sda: sda1 sda2
+2025-12-07T11:11:19.943100+05:00 ubu24-tst kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+2025-12-07T11:11:19.943100+05:00 ubu24-tst kernel: e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:9c:a2:de
+2025-12-07T11:11:19.943100+05:00 ubu24-tst kernel: e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+2025-12-07T11:11:19.943106+05:00 ubu24-tst kernel: ata4: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+2025-12-07T11:11:19.943107+05:00 ubu24-tst kernel: ata4.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+2025-12-07T11:11:19.943108+05:00 ubu24-tst kernel: ata4.00: 10485760 sectors, multi 128: LBA48 NCQ (depth 32)
+2025-12-07T11:11:19.943108+05:00 ubu24-tst kernel: ata4.00: configured for UDMA/133
+2025-12-07T11:11:19.943109+05:00 ubu24-tst kernel: scsi 3:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+2025-12-07T11:11:19.943109+05:00 ubu24-tst kernel: sd 3:0:0:0: [sdb] 10485760 512-byte logical blocks: (5.37 GB/5.00 GiB)
+2025-12-07T11:11:19.943115+05:00 ubu24-tst kernel: sd 3:0:0:0: [sdb] Write Protect is off
+2025-12-07T11:11:19.943116+05:00 ubu24-tst kernel: sd 3:0:0:0: [sdb] Mode Sense: 00 3a 00 00
+2025-12-07T11:11:19.943116+05:00 ubu24-tst kernel: sd 3:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+2025-12-07T11:11:19.943117+05:00 ubu24-tst kernel: sd 3:0:0:0: [sdb] Preferred minimum I/O size 512 bytes
+2025-12-07T11:11:19.943117+05:00 ubu24-tst kernel: sd 3:0:0:0: Attached scsi generic sg2 type 0
+2025-12-07T11:11:19.943118+05:00 ubu24-tst kernel:  sdb: sdb1
+2025-12-07T11:11:19.943123+05:00 ubu24-tst kernel: sd 3:0:0:0: [sdb] Attached SCSI disk
+2025-12-07T11:11:19.943125+05:00 ubu24-tst kernel: ata5: SATA link down (SStatus 0 SControl 300)
+2025-12-07T11:11:19.943125+05:00 ubu24-tst kernel: e1000 0000:00:03.0 enp0s3: renamed from eth0
+2025-12-07T11:11:19.943126+05:00 ubu24-tst kernel: usbcore: registered new interface driver usbhid
+2025-12-07T11:11:19.943126+05:00 ubu24-tst kernel: usbhid: USB HID core driver
+2025-12-07T11:11:19.943126+05:00 ubu24-tst kernel: input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input6
+2025-12-07T11:11:19.943127+05:00 ubu24-tst kernel: hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+2025-12-07T11:11:19.943133+05:00 ubu24-tst kernel: EXT4-fs (sda2): mounted filesystem f8d4db51-6a0e-4c25-8eea-1b5d8868647c ro with ordered data mode. Quota mode: none.
+2025-12-07T11:11:19.970405+05:00 ubu24-tst kernel: pstore: Using crash dump compression: deflate
+2025-12-07T11:11:19.970406+05:00 ubu24-tst kernel: pstore: Registered efi_pstore as persistent store backend
+2025-12-07T11:11:19.970418+05:00 ubu24-tst kernel: EXT4-fs (sda2): re-mounted f8d4db51-6a0e-4c25-8eea-1b5d8868647c r/w.
+2025-12-07T11:11:19.970419+05:00 ubu24-tst kernel: lp: driver loaded but no devices found
+2025-12-07T11:11:19.970420+05:00 ubu24-tst kernel: ppdev: user-space parallel port driver
+2025-12-07T11:11:19.970421+05:00 ubu24-tst kernel: Adding 3024892k swap on /swap.img.  Priority:-2 extents:2 across:3164156k 
+2025-12-07T11:11:19.970424+05:00 ubu24-tst kernel: loop0: detected capacity change from 0 to 8
+2025-12-07T11:11:19.970425+05:00 ubu24-tst kernel: loop1: detected capacity change from 0 to 151368
+2025-12-07T11:11:19.970425+05:00 ubu24-tst kernel: loop2: detected capacity change from 0 to 151456
+2025-12-07T11:11:19.970426+05:00 ubu24-tst kernel: loop3: detected capacity change from 0 to 510136
+2025-12-07T11:11:19.970427+05:00 ubu24-tst kernel: loop4: detected capacity change from 0 to 513184
+2025-12-07T11:11:19.970428+05:00 ubu24-tst kernel: loop5: detected capacity change from 0 to 22800
+2025-12-07T11:11:19.970429+05:00 ubu24-tst kernel: loop6: detected capacity change from 0 to 37864
+2025-12-07T11:11:19.970430+05:00 ubu24-tst kernel: loop7: detected capacity change from 0 to 1056784
+2025-12-07T11:11:19.970431+05:00 ubu24-tst kernel: loop8: detected capacity change from 0 to 1057184
+2025-12-07T11:11:19.970431+05:00 ubu24-tst kernel: loop9: detected capacity change from 0 to 187776
+2025-12-07T11:11:19.970432+05:00 ubu24-tst kernel: loop10: detected capacity change from 0 to 22176
+2025-12-07T11:11:19.970433+05:00 ubu24-tst kernel: loop11: detected capacity change from 0 to 103976
+2025-12-07T11:11:19.970434+05:00 ubu24-tst kernel: loop12: detected capacity change from 0 to 104296
+2025-12-07T11:11:19.970435+05:00 ubu24-tst kernel: loop13: detected capacity change from 0 to 1152
+2025-12-07T11:11:19.970435+05:00 ubu24-tst kernel: vboxguest: loading out-of-tree module taints kernel.
+2025-12-07T11:11:19.970436+05:00 ubu24-tst kernel: vboxguest: module verification failed: signature and/or required key missing - tainting kernel
+2025-12-07T11:11:19.970437+05:00 ubu24-tst kernel: vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+2025-12-07T11:11:19.970438+05:00 ubu24-tst kernel: Host supports full mouse state reporting, switching to extended mouse integration protocol
+2025-12-07T11:11:19.970439+05:00 ubu24-tst kernel: piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+2025-12-07T11:11:19.970440+05:00 ubu24-tst kernel: input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input7
+2025-12-07T11:11:19.970441+05:00 ubu24-tst kernel: vboxguest: Successfully loaded version 7.2.2 r170484
+2025-12-07T11:11:19.970442+05:00 ubu24-tst kernel: vboxguest: misc device minor 122, IRQ 20, I/O port c140, MMIO at 00000000c1000000 (size 0x400000)
+2025-12-07T11:11:19.970442+05:00 ubu24-tst kernel: vboxguest: Successfully loaded version 7.2.2 r170484 (interface 0x00010004)
+2025-12-07T11:11:19.970443+05:00 ubu24-tst kernel: ------------[ cut here ]------------
+2025-12-07T11:11:19.970444+05:00 ubu24-tst kernel: WARNING: CPU: 0 PID: 375 at kernel/rcu/tree_plugin.h:746 rcu_sched_clock_irq+0x360/0x370
+2025-12-07T11:11:19.970445+05:00 ubu24-tst kernel: Modules linked in: intel_cstate(-) vmwgfx(+) snd(+) drm_ttm_helper i2c_piix4 ttm soundcore vboxguest(OE) i2c_smbus joydev input_leds mac_hid serio_raw sch_fq_codel msr parport_pc ppdev lp parport efi_pstore nfnetlink dmi_sysfs ip_tables x_tables autofs4 hid_generic usbhid hid psmouse e1000 ahci video wmi libahci pata_acpi
+2025-12-07T11:11:19.970446+05:00 ubu24-tst kernel: CPU: 0 UID: 0 PID: 375 Comm: (udev-worker) Tainted: G           OE      6.14.0-36-generic #36~24.04.1-Ubuntu
+2025-12-07T11:11:19.970447+05:00 ubu24-tst kernel: Tainted: [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+2025-12-07T11:11:19.970448+05:00 ubu24-tst kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+2025-12-07T11:11:19.970449+05:00 ubu24-tst kernel: RIP: 0010:rcu_sched_clock_irq+0x360/0x370
+2025-12-07T11:11:19.970450+05:00 ubu24-tst kernel: Code: ff ff 65 c6 05 30 5c 1b 48 00 c6 83 41 09 00 00 00 e9 79 fd ff ff f0 80 0b 08 65 81 25 cd 3c 1b 48 ff ff ff 7f e9 ca fe ff ff <0f> 0b e9 2d fd ff ff 66 0f 1f 84 00 00 00 00 00 90 90 90 90 90 90
+2025-12-07T11:11:19.970451+05:00 ubu24-tst kernel: RSP: 0018:ffffd34f80003e80 EFLAGS: 00010086
+2025-12-07T11:11:19.970451+05:00 ubu24-tst kernel: RAX: 00000000ffffffff RBX: ffff8d180f100000 RCX: 0000000000000000
+2025-12-07T11:11:19.970452+05:00 ubu24-tst kernel: RDX: 0000000000000000 RSI: ffffffffb96ea080 RDI: 0000000000000000
+2025-12-07T11:11:19.970453+05:00 ubu24-tst kernel: RBP: ffffd34f80003ea0 R08: 0000000000000000 R09: 0000000000000000
+2025-12-07T11:11:19.970454+05:00 ubu24-tst kernel: R10: 0000000000000000 R11: 0000000000000000 R12: 0000000000000000
+2025-12-07T11:11:19.970455+05:00 ubu24-tst kernel: R13: ffffd34f803878a8 R14: 0000000000000000 R15: ffff8d18bce25e00
+2025-12-07T11:11:19.970456+05:00 ubu24-tst kernel: FS:  00007dfadce348c0(0000) GS:ffff8d18bce00000(0000) knlGS:0000000000000000
+2025-12-07T11:11:19.970457+05:00 ubu24-tst kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+2025-12-07T11:11:19.970458+05:00 ubu24-tst kernel: CR2: 00005c55fb8627f8 CR3: 0000000001310005 CR4: 00000000000706f0
+2025-12-07T11:11:19.970459+05:00 ubu24-tst kernel: Call Trace:
+2025-12-07T11:11:19.970460+05:00 ubu24-tst kernel:  <IRQ>
+2025-12-07T11:11:19.971035+05:00 ubu24-tst kernel:  update_process_times+0x72/0xd0
+2025-12-07T11:11:19.971049+05:00 ubu24-tst kernel:  tick_nohz_handler+0x97/0x170
+2025-12-07T11:11:19.971051+05:00 ubu24-tst kernel:  ? __pfx_tick_nohz_handler+0x10/0x10
+2025-12-07T11:11:19.971052+05:00 ubu24-tst kernel:  __hrtimer_run_queues+0x112/0x2a0
+2025-12-07T11:11:19.971053+05:00 ubu24-tst kernel:  ? clockevents_program_event+0xc1/0x150
+2025-12-07T11:11:19.971054+05:00 ubu24-tst kernel:  hrtimer_interrupt+0xfd/0x260
+2025-12-07T11:11:19.971054+05:00 ubu24-tst kernel:  __sysvec_apic_timer_interrupt+0x56/0x130
+2025-12-07T11:11:19.971055+05:00 ubu24-tst kernel:  sysvec_apic_timer_interrupt+0x9b/0xc0
+2025-12-07T11:11:19.971056+05:00 ubu24-tst kernel:  </IRQ>
+2025-12-07T11:11:19.971057+05:00 ubu24-tst kernel:  <TASK>
+2025-12-07T11:11:19.971059+05:00 ubu24-tst kernel:  asm_sysvec_apic_timer_interrupt+0x1b/0x20
+2025-12-07T11:11:19.971059+05:00 ubu24-tst kernel: RIP: 0010:mod_objcg_state+0x5/0x2d0
+2025-12-07T11:11:19.971061+05:00 ubu24-tst kernel: Code: 40 08 e8 ae 52 d5 00 e9 17 ff ff ff 66 0f 1f 84 00 00 00 00 00 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 0f 1f 44 00 00 <55> 48 89 e5 41 57 49 89 ff 41 56 41 55 41 54 41 89 d4 53 48 89 f3
+2025-12-07T11:11:19.971062+05:00 ubu24-tst kernel: RSP: 0018:ffffd34f80387950 EFLAGS: 00000246
+2025-12-07T11:11:19.971063+05:00 ubu24-tst kernel: RAX: 0000000000000000 RBX: 0000000000000000 RCX: 00000000000000c8
+2025-12-07T11:11:19.971064+05:00 ubu24-tst kernel: RDX: 0000000000000006 RSI: ffff8d18bf0a5540 RDI: ffff8d18019630c0
+2025-12-07T11:11:19.971065+05:00 ubu24-tst kernel: RBP: ffffd34f803879a0 R08: 0000000000000000 R09: 0000000000000000
+2025-12-07T11:11:19.971066+05:00 ubu24-tst kernel: R10: 0000000000000000 R11: 0000000000000000 R12: ffff8d18012d0a00
+2025-12-07T11:11:19.971067+05:00 ubu24-tst kernel: R13: 0000000000000000 R14: ffff8d18019630c0 R15: fffff3fb00234d00
+2025-12-07T11:11:19.971068+05:00 ubu24-tst kernel:  ? __memcg_slab_post_alloc_hook+0x23b/0x3e0
+2025-12-07T11:11:19.971069+05:00 ubu24-tst kernel:  ? mod_memcg_state+0x2b/0x60
+2025-12-07T11:11:19.971070+05:00 ubu24-tst kernel:  ? alloc_empty_file+0x50/0x130
+2025-12-07T11:11:19.971071+05:00 ubu24-tst kernel:  kmem_cache_alloc_noprof+0x382/0x3b0
+2025-12-07T11:11:19.971072+05:00 ubu24-tst kernel:  alloc_empty_file+0x50/0x130
+2025-12-07T11:11:19.971073+05:00 ubu24-tst kernel:  path_openat+0x46/0x2d0
+2025-12-07T11:11:19.971074+05:00 ubu24-tst kernel:  ? _copy_to_user+0x41/0x60
+2025-12-07T11:11:19.971075+05:00 ubu24-tst kernel:  ? cp_new_stat+0x142/0x180
+2025-12-07T11:11:19.971076+05:00 ubu24-tst kernel:  do_filp_open+0xd4/0x1a0
+2025-12-07T11:11:19.971077+05:00 ubu24-tst kernel:  do_sys_openat2+0xb3/0xe0
+2025-12-07T11:11:19.971078+05:00 ubu24-tst kernel:  __x64_sys_openat+0x55/0xa0
+2025-12-07T11:11:19.971079+05:00 ubu24-tst kernel:  x64_sys_call+0x1c49/0x2650
+2025-12-07T11:11:19.971080+05:00 ubu24-tst kernel:  do_syscall_64+0x7e/0x170
+2025-12-07T11:11:19.971080+05:00 ubu24-tst kernel:  ? arch_exit_to_user_mode_prepare.isra.0+0x22/0x120
+2025-12-07T11:11:19.971081+05:00 ubu24-tst kernel:  ? syscall_exit_to_user_mode+0x38/0x1d0
+2025-12-07T11:11:19.971082+05:00 ubu24-tst kernel:  ? do_syscall_64+0x8a/0x170
+2025-12-07T11:11:19.971083+05:00 ubu24-tst kernel:  ? putname+0x60/0x80
+2025-12-07T11:11:19.971084+05:00 ubu24-tst kernel:  ? __x64_sys_statx+0xb7/0x100
+2025-12-07T11:11:19.971085+05:00 ubu24-tst kernel:  ? arch_exit_to_user_mode_prepare.isra.0+0x22/0x120
+2025-12-07T11:11:19.971086+05:00 ubu24-tst kernel:  ? syscall_exit_to_user_mode+0x38/0x1d0
+2025-12-07T11:11:19.971087+05:00 ubu24-tst kernel:  ? do_syscall_64+0x8a/0x170
+2025-12-07T11:11:19.971088+05:00 ubu24-tst kernel:  ? arch_exit_to_user_mode_prepare.isra.0+0x22/0x120
+2025-12-07T11:11:19.971089+05:00 ubu24-tst kernel:  ? syscall_exit_to_user_mode+0x38/0x1d0
+2025-12-07T11:11:19.971090+05:00 ubu24-tst kernel:  ? do_syscall_64+0x8a/0x170
+2025-12-07T11:11:19.971091+05:00 ubu24-tst kernel:  ? ksys_read+0x72/0xf0
+2025-12-07T11:11:19.971092+05:00 ubu24-tst kernel:  ? arch_exit_to_user_mode_prepare.isra.0+0x22/0x120
+2025-12-07T11:11:19.971093+05:00 ubu24-tst kernel:  ? syscall_exit_to_user_mode+0x38/0x1d0
+2025-12-07T11:11:19.971094+05:00 ubu24-tst kernel:  ? do_syscall_64+0x8a/0x170
+2025-12-07T11:11:19.971098+05:00 ubu24-tst kernel: message repeated 2 times: [  ? do_syscall_64+0x8a/0x170]
+2025-12-07T11:11:19.971101+05:00 ubu24-tst kernel:  ? do_sync_core+0x2c/0x40
+2025-12-07T11:11:19.971111+05:00 ubu24-tst kernel:  ? __flush_smp_call_function_queue+0x9c/0x430
+2025-12-07T11:11:19.971113+05:00 ubu24-tst kernel:  ? arch_exit_to_user_mode_prepare.isra.0+0x22/0x120
+2025-12-07T11:11:19.971114+05:00 ubu24-tst kernel:  ? irqentry_exit_to_user_mode+0x2d/0x1d0
+2025-12-07T11:11:19.971115+05:00 ubu24-tst kernel:  ? irqentry_exit+0x43/0x50
+2025-12-07T11:11:19.971116+05:00 ubu24-tst kernel:  ? sysvec_call_function_single+0x57/0xc0
+2025-12-07T11:11:19.971117+05:00 ubu24-tst kernel:  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+2025-12-07T11:11:19.971118+05:00 ubu24-tst kernel: RIP: 0033:0x7dfadcd1b1a5
+2025-12-07T11:11:19.971119+05:00 ubu24-tst kernel: Code: 83 e2 40 75 50 89 f0 f7 d0 a9 00 00 41 00 74 45 80 3d ae fe 0e 00 00 74 60 89 da 4c 89 e6 bf 9c ff ff ff b8 01 01 00 00 0f 05 <48> 3d 00 f0 ff ff 0f 87 7f 00 00 00 48 8b 55 b8 64 48 2b 14 25 28
+2025-12-07T11:11:19.971120+05:00 ubu24-tst kernel: RSP: 002b:00007ffca609bf40 EFLAGS: 00000202 ORIG_RAX: 0000000000000101
+2025-12-07T11:11:19.971121+05:00 ubu24-tst kernel: RAX: ffffffffffffffda RBX: 0000000000290000 RCX: 00007dfadcd1b1a5
+2025-12-07T11:11:19.971122+05:00 ubu24-tst kernel: RDX: 0000000000290000 RSI: 00005c55d876f194 RDI: 00000000ffffff9c
+2025-12-07T11:11:19.971123+05:00 ubu24-tst kernel: RBP: 00007ffca609bfb0 R08: 00007ffca609bd70 R09: 00005c55fb8825a1
+2025-12-07T11:11:19.971124+05:00 ubu24-tst kernel: R10: 0000000000000000 R11: 0000000000000202 R12: 00005c55d876f194
+2025-12-07T11:11:19.971125+05:00 ubu24-tst kernel: R13: 0000000000000000 R14: 0000000000000011 R15: 0000000000000000
+2025-12-07T11:11:19.971126+05:00 ubu24-tst kernel:  </TASK>
+2025-12-07T11:11:19.971127+05:00 ubu24-tst kernel: ---[ end trace 0000000000000000 ]---
+2025-12-07T11:11:19.971128+05:00 ubu24-tst kernel: RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+2025-12-07T11:11:19.971129+05:00 ubu24-tst kernel: cryptd: max_cpu_qlen set to 1000
+2025-12-07T11:11:19.971130+05:00 ubu24-tst kernel: AES CTR mode by8 optimization enabled
+2025-12-07T11:11:19.971131+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: vgaarb: deactivate vga console
+2025-12-07T11:11:19.971132+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] FIFO at 0x00000000c1400000 size is 2048 KiB
+2025-12-07T11:11:19.971133+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] VRAM at 0x00000000c0000000 size is 16384 KiB
+2025-12-07T11:11:19.971134+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Running on SVGA version 2.
+2025-12-07T11:11:19.971135+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, alpha cursor, extended fifo, pitchlock, irq mask, gmr, traces, gmr2, screen object 2, command buffers, command buffers 2, gbobject, 
+2025-12-07T11:11:19.971136+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+2025-12-07T11:11:19.971136+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+2025-12-07T11:11:19.971137+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+2025-12-07T11:11:19.971138+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] DMA map mode: Caching DMA mappings.
+2025-12-07T11:11:19.971139+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Legacy memory limits: VRAM = 16384 KiB, FIFO = 2048 KiB, surface = 507904 KiB
+2025-12-07T11:11:19.971141+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] MOB limits: max mob size = 131072 KiB, max mob pages = 4096
+2025-12-07T11:11:19.971163+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Max GMR ids is 8192
+2025-12-07T11:11:19.971166+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Max number of GMR pages is 1048576
+2025-12-07T11:11:19.971167+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Maximum display memory size is 16384 KiB
+2025-12-07T11:11:19.971168+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Screen Target display unit initialized
+2025-12-07T11:11:19.971169+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+2025-12-07T11:11:19.971169+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Using command buffers with DMA pool.
+2025-12-07T11:11:19.971170+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Available shader model: Legacy.
+2025-12-07T11:11:19.971171+05:00 ubu24-tst kernel: [drm] Initialized vmwgfx 2.20.0 for 0000:00:02.0 on minor 1
+2025-12-07T11:11:19.971172+05:00 ubu24-tst kernel: fbcon: vmwgfxdrmfb (fb0) is primary device
+2025-12-07T11:11:19.971173+05:00 ubu24-tst kernel: fbcon: Deferring console take-over
+2025-12-07T11:11:19.971174+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] fb0: vmwgfxdrmfb frame buffer device
+2025-12-07T11:11:19.971176+05:00 ubu24-tst kernel: audit: type=1400 audit(1765087877.637:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="1password" pid=520 comm="apparmor_parser"
+2025-12-07T11:11:19.971177+05:00 ubu24-tst kernel: audit: type=1400 audit(1765087877.639:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="Discord" pid=521 comm="apparmor_parser"
+2025-12-07T11:11:19.971178+05:00 ubu24-tst kernel: audit: type=1400 audit(1765087877.646:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="QtWebEngineProcess" pid=528 comm="apparmor_parser"
+2025-12-07T11:11:19.971179+05:00 ubu24-tst kernel: audit: type=1400 audit(1765087877.653:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name=4D6F6E676F444220436F6D70617373 pid=527 comm="apparmor_parser"
+2025-12-07T11:11:19.971180+05:00 ubu24-tst kernel: audit: type=1400 audit(1765087877.660:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="balena-etcher" pid=533 comm="apparmor_parser"
+2025-12-07T11:11:19.971181+05:00 ubu24-tst kernel: audit: type=1400 audit(1765087877.667:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="brave" pid=534 comm="apparmor_parser"
+2025-12-07T11:11:19.971182+05:00 ubu24-tst kernel: audit: type=1400 audit(1765087877.672:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="buildah" pid=539 comm="apparmor_parser"
+2025-12-07T11:11:19.971183+05:00 ubu24-tst kernel: audit: type=1400 audit(1765087877.674:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="busybox" pid=542 comm="apparmor_parser"
+2025-12-07T11:11:19.971184+05:00 ubu24-tst kernel: audit: type=1400 audit(1765087877.681:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ch-checkns" pid=545 comm="apparmor_parser"
+2025-12-07T11:11:19.971185+05:00 ubu24-tst kernel: audit: type=1400 audit(1765087877.687:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="cam" pid=544 comm="apparmor_parser"
+2025-12-07T11:11:19.971199+05:00 ubu24-tst kernel: snd_intel8x0 0000:00:05.0: allow list rate for 1028:0177 is 48000
+2025-12-07T11:11:19.971202+05:00 ubu24-tst kernel: Process accounting resumed
+2025-12-07T11:11:20.460470+05:00 ubu24-tst kernel: loop14: detected capacity change from 0 to 8
+2025-12-07T11:11:20.476334+05:00 ubu24-tst kernel: NET: Registered PF_QIPCRTR protocol family
+2025-12-07T11:11:22.086236+05:00 ubu24-tst kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+2025-12-07T11:11:22.122139+05:00 ubu24-tst kernel: 06:11:22.121947 main     VBoxService 7.2.2 r170484 (verbosity: 0) linux.amd64 (Sep 10 2025 18:43:27) release log
+2025-12-07T11:11:22.122159+05:00 ubu24-tst kernel: 06:11:22.121951 main     Log opened 2025-12-07T06:11:22.121930000Z
+2025-12-07T11:11:22.124172+05:00 ubu24-tst kernel: 06:11:22.123666 main     OS Product: Linux
+2025-12-07T11:11:22.124186+05:00 ubu24-tst kernel: 06:11:22.123763 main     OS Release: 6.14.0-36-generic
+2025-12-07T11:11:22.124188+05:00 ubu24-tst kernel: 06:11:22.123812 main     OS Version: #36~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Oct 15 15:45:17 UTC 2
+2025-12-07T11:11:22.124191+05:00 ubu24-tst kernel: 06:11:22.123860 main     Executable: /opt/VBoxGuestAdditions-7.2.2/sbin/VBoxService
+2025-12-07T11:11:22.124192+05:00 ubu24-tst kernel: 06:11:22.123861 main     Process ID: 1415
+2025-12-07T11:11:22.124193+05:00 ubu24-tst kernel: 06:11:22.123863 main     Package type: LINUX_64BITS_GENERIC
+2025-12-07T11:11:22.135503+05:00 ubu24-tst kernel: 06:11:22.134134 main     7.2.2 r170484 started. Verbose level = 0
+2025-12-07T11:11:22.139169+05:00 ubu24-tst kernel: 06:11:22.138842 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+2025-12-07T11:11:27.694156+05:00 ubu24-tst kernel: rfkill: input handler disabled
+2025-12-07T11:11:48.104733+05:00 ubu24-tst kernel: rfkill: input handler enabled
+2025-12-07T11:11:51.164713+05:00 ubu24-tst kernel: rfkill: input handler disabled
+2025-12-07T11:14:34.306853+05:00 ubu24-tst kernel: Linux version 6.14.0-36-generic (buildd@lcy02-amd64-067) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #36~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Oct 15 15:45:17 UTC 2 (Ubuntu 6.14.0-36.36~24.04.1-generic 6.14.11)
+2025-12-07T11:14:34.310469+05:00 ubu24-tst kernel: Command line: BOOT_IMAGE=/boot/vmlinuz-6.14.0-36-generic root=UUID=f8d4db51-6a0e-4c25-8eea-1b5d8868647c ro quiet splash vt.handoff=7
+2025-12-07T11:14:34.310474+05:00 ubu24-tst kernel: KERNEL supported cpus:
+2025-12-07T11:14:34.310476+05:00 ubu24-tst kernel:   Intel GenuineIntel
+2025-12-07T11:14:34.310476+05:00 ubu24-tst kernel:   AMD AuthenticAMD
+2025-12-07T11:14:34.310477+05:00 ubu24-tst kernel:   Hygon HygonGenuine
+2025-12-07T11:14:34.310478+05:00 ubu24-tst kernel:   Centaur CentaurHauls
+2025-12-07T11:14:34.310485+05:00 ubu24-tst kernel:   zhaoxin   Shanghai  
+2025-12-07T11:14:34.310487+05:00 ubu24-tst kernel: BIOS-provided physical RAM map:
+2025-12-07T11:14:34.310488+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009ffff] usable
+2025-12-07T11:14:34.310489+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x0000000000100000-0x00000000bdea1fff] usable
+2025-12-07T11:14:34.310490+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000bdea2000-0x00000000bdfb5fff] reserved
+2025-12-07T11:14:34.310491+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000bdfb6000-0x00000000beaecfff] usable
+2025-12-07T11:14:34.310499+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000beaed000-0x00000000bed6cfff] reserved
+2025-12-07T11:14:34.310500+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000bed6d000-0x00000000bed7efff] ACPI data
+2025-12-07T11:14:34.310501+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000bed7f000-0x00000000bedfefff] ACPI NVS
+2025-12-07T11:14:34.310502+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000bedff000-0x00000000bf12cfff] usable
+2025-12-07T11:14:34.310503+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000bf12d000-0x00000000bf130fff] reserved
+2025-12-07T11:14:34.310504+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000bf131000-0x00000000bf132fff] ACPI NVS
+2025-12-07T11:14:34.310505+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000bf133000-0x00000000bf16dfff] usable
+2025-12-07T11:14:34.310511+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000bf16e000-0x00000000bffeffff] reserved
+2025-12-07T11:14:34.310513+05:00 ubu24-tst kernel: BIOS-e820: [mem 0x00000000ffc00000-0x00000000ffffffff] reserved
+2025-12-07T11:14:34.310514+05:00 ubu24-tst kernel: NX (Execute Disable) protection: active
+2025-12-07T11:14:34.310515+05:00 ubu24-tst kernel: APIC: Static calls initialized
+2025-12-07T11:14:34.310516+05:00 ubu24-tst kernel: efi: EFI v2.7 by EDK II
+2025-12-07T11:14:34.310516+05:00 ubu24-tst kernel: efi: ACPI=0xbed7e000 ACPI 2.0=0xbed7e014 SMBIOS=0xbedfd000 MOKvar=0xbeb43000 INITRD=0xbd405a18 RNG=0xbed75018 
+2025-12-07T11:14:34.310523+05:00 ubu24-tst kernel: random: crng init done
+2025-12-07T11:14:34.310525+05:00 ubu24-tst kernel: efi: Remove mem127: MMIO range=[0xffc00000-0xffffffff] (4MB) from e820 map
+2025-12-07T11:14:34.310526+05:00 ubu24-tst kernel: e820: remove [mem 0xffc00000-0xffffffff] reserved
+2025-12-07T11:14:34.310527+05:00 ubu24-tst kernel: SMBIOS 2.5 present.
+2025-12-07T11:14:34.310527+05:00 ubu24-tst kernel: DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+2025-12-07T11:14:34.310528+05:00 ubu24-tst kernel: DMI: Memory slots populated: 0/0
+2025-12-07T11:14:34.310534+05:00 ubu24-tst kernel: secureboot: Secure boot disabled
+2025-12-07T11:14:34.310536+05:00 ubu24-tst kernel: Hypervisor detected: KVM
+2025-12-07T11:14:34.310537+05:00 ubu24-tst kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+2025-12-07T11:14:34.310538+05:00 ubu24-tst kernel: kvm-clock: using sched offset of 4237986479 cycles
+2025-12-07T11:14:34.310539+05:00 ubu24-tst kernel: clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+2025-12-07T11:14:34.310539+05:00 ubu24-tst kernel: tsc: Detected 2893.436 MHz processor
+2025-12-07T11:14:34.310540+05:00 ubu24-tst kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+2025-12-07T11:14:34.310546+05:00 ubu24-tst kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+2025-12-07T11:14:34.310548+05:00 ubu24-tst kernel: last_pfn = 0xbf16e max_arch_pfn = 0x400000000
+2025-12-07T11:14:34.310549+05:00 ubu24-tst kernel: MTRR map: 5 entries (3 fixed + 2 variable; max 35), built from 16 variable MTRRs
+2025-12-07T11:14:34.310550+05:00 ubu24-tst kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+2025-12-07T11:14:34.310550+05:00 ubu24-tst kernel: secureboot: Secure boot disabled
+2025-12-07T11:14:34.310551+05:00 ubu24-tst kernel: RAMDISK: [mem 0xb3487000-0xb8195fff]
+2025-12-07T11:14:34.310557+05:00 ubu24-tst kernel: ACPI: Early table checksum verification disabled
+2025-12-07T11:14:34.310559+05:00 ubu24-tst kernel: ACPI: RSDP 0x00000000BED7E014 000024 (v02 VBOX  )
+2025-12-07T11:14:34.310559+05:00 ubu24-tst kernel: ACPI: XSDT 0x00000000BED7D0E8 000044 (v01 VBOX   VBOXFACP 00000001      01000013)
+2025-12-07T11:14:34.310560+05:00 ubu24-tst kernel: ACPI: FACP 0x00000000BED79000 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+2025-12-07T11:14:34.310561+05:00 ubu24-tst kernel: ACPI: DSDT 0x00000000BED7A000 002353 (v02 VBOX   VBOXBIOS 00000002 VBOX 00029BF3)
+2025-12-07T11:14:34.310562+05:00 ubu24-tst kernel: ACPI: FACS 0x00000000BEDFE000 000040
+2025-12-07T11:14:34.310568+05:00 ubu24-tst kernel: ACPI: APIC 0x00000000BED78000 00005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+2025-12-07T11:14:34.310570+05:00 ubu24-tst kernel: ACPI: SSDT 0x00000000BED77000 000045 (v01 VBOX   VBOXCPUT 00000002 VBOX 00029BF3)
+2025-12-07T11:14:34.310571+05:00 ubu24-tst kernel: ACPI: BGRT 0x00000000BED76000 000038 (v01 INTEL  EDK2     00000002      01000013)
+2025-12-07T11:14:34.310572+05:00 ubu24-tst kernel: ACPI: Reserving FACP table memory at [mem 0xbed79000-0xbed790f3]
+2025-12-07T11:14:34.310573+05:00 ubu24-tst kernel: ACPI: Reserving DSDT table memory at [mem 0xbed7a000-0xbed7c352]
+2025-12-07T11:14:34.310574+05:00 ubu24-tst kernel: ACPI: Reserving FACS table memory at [mem 0xbedfe000-0xbedfe03f]
+2025-12-07T11:14:34.310575+05:00 ubu24-tst kernel: ACPI: Reserving APIC table memory at [mem 0xbed78000-0xbed7805b]
+2025-12-07T11:14:34.310582+05:00 ubu24-tst kernel: ACPI: Reserving SSDT table memory at [mem 0xbed77000-0xbed77044]
+2025-12-07T11:14:34.310584+05:00 ubu24-tst kernel: ACPI: Reserving BGRT table memory at [mem 0xbed76000-0xbed76037]
+2025-12-07T11:14:34.310585+05:00 ubu24-tst kernel: No NUMA configuration found
+2025-12-07T11:14:34.310586+05:00 ubu24-tst kernel: Faking a node at [mem 0x0000000000000000-0x00000000bf16dfff]
+2025-12-07T11:14:34.310586+05:00 ubu24-tst kernel: NODE_DATA(0) allocated [mem 0xbf0a5540-0xbf0cffff]
+2025-12-07T11:14:34.310587+05:00 ubu24-tst kernel: Zone ranges:
+2025-12-07T11:14:34.310593+05:00 ubu24-tst kernel:   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+2025-12-07T11:14:34.310595+05:00 ubu24-tst kernel:   DMA32    [mem 0x0000000001000000-0x00000000bf16dfff]
+2025-12-07T11:14:34.310596+05:00 ubu24-tst kernel:   Normal   empty
+2025-12-07T11:14:34.310597+05:00 ubu24-tst kernel:   Device   empty
+2025-12-07T11:14:34.310598+05:00 ubu24-tst kernel: Movable zone start for each node
+2025-12-07T11:14:34.310599+05:00 ubu24-tst kernel: Early memory node ranges
+2025-12-07T11:14:34.310600+05:00 ubu24-tst kernel:   node   0: [mem 0x0000000000001000-0x000000000009ffff]
+2025-12-07T11:14:34.310606+05:00 ubu24-tst kernel:   node   0: [mem 0x0000000000100000-0x00000000bdea1fff]
+2025-12-07T11:14:34.310608+05:00 ubu24-tst kernel:   node   0: [mem 0x00000000bdfb6000-0x00000000beaecfff]
+2025-12-07T11:14:34.310609+05:00 ubu24-tst kernel:   node   0: [mem 0x00000000bedff000-0x00000000bf12cfff]
+2025-12-07T11:14:34.310610+05:00 ubu24-tst kernel:   node   0: [mem 0x00000000bf133000-0x00000000bf16dfff]
+2025-12-07T11:14:34.310611+05:00 ubu24-tst kernel: Initmem setup node 0 [mem 0x0000000000001000-0x00000000bf16dfff]
+2025-12-07T11:14:34.310611+05:00 ubu24-tst kernel: On node 0, zone DMA: 1 pages in unavailable ranges
+2025-12-07T11:14:34.310617+05:00 ubu24-tst kernel: On node 0, zone DMA: 96 pages in unavailable ranges
+2025-12-07T11:14:34.310619+05:00 ubu24-tst kernel: On node 0, zone DMA32: 276 pages in unavailable ranges
+2025-12-07T11:14:34.310620+05:00 ubu24-tst kernel: On node 0, zone DMA32: 786 pages in unavailable ranges
+2025-12-07T11:14:34.310621+05:00 ubu24-tst kernel: On node 0, zone DMA32: 6 pages in unavailable ranges
+2025-12-07T11:14:34.310622+05:00 ubu24-tst kernel: On node 0, zone DMA32: 3730 pages in unavailable ranges
+2025-12-07T11:14:34.310623+05:00 ubu24-tst kernel: ACPI: PM-Timer IO Port: 0x4008
+2025-12-07T11:14:34.310628+05:00 ubu24-tst kernel: IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-23
+2025-12-07T11:14:34.310630+05:00 ubu24-tst kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+2025-12-07T11:14:34.310631+05:00 ubu24-tst kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+2025-12-07T11:14:34.310632+05:00 ubu24-tst kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+2025-12-07T11:14:34.310633+05:00 ubu24-tst kernel: e820: update [mem 0xbd3c0000-0xbd3e0fff] usable ==> reserved
+2025-12-07T11:14:34.310634+05:00 ubu24-tst kernel: CPU topo: Max. logical packages:   1
+2025-12-07T11:14:34.310635+05:00 ubu24-tst kernel: CPU topo: Max. logical dies:       1
+2025-12-07T11:14:34.311360+05:00 ubu24-tst kernel: CPU topo: Max. dies per package:   1
+2025-12-07T11:14:34.311371+05:00 ubu24-tst kernel: CPU topo: Max. threads per core:   1
+2025-12-07T11:14:34.311372+05:00 ubu24-tst kernel: CPU topo: Num. cores per package:     2
+2025-12-07T11:14:34.311373+05:00 ubu24-tst kernel: CPU topo: Num. threads per package:   2
+2025-12-07T11:14:34.311374+05:00 ubu24-tst kernel: CPU topo: Allowing 2 present CPUs plus 0 hotplug CPUs
+2025-12-07T11:14:34.311375+05:00 ubu24-tst kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+2025-12-07T11:14:34.311382+05:00 ubu24-tst kernel: PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000fffff]
+2025-12-07T11:14:34.311384+05:00 ubu24-tst kernel: PM: hibernation: Registered nosave memory: [mem 0xbd3c0000-0xbd3e0fff]
+2025-12-07T11:14:34.311385+05:00 ubu24-tst kernel: PM: hibernation: Registered nosave memory: [mem 0xbdea2000-0xbdfb5fff]
+2025-12-07T11:14:34.311385+05:00 ubu24-tst kernel: PM: hibernation: Registered nosave memory: [mem 0xbeaed000-0xbedfefff]
+2025-12-07T11:14:34.311386+05:00 ubu24-tst kernel: PM: hibernation: Registered nosave memory: [mem 0xbf12d000-0xbf132fff]
+2025-12-07T11:14:34.311387+05:00 ubu24-tst kernel: [mem 0xbfff0000-0xffffffff] available for PCI devices
+2025-12-07T11:14:34.311388+05:00 ubu24-tst kernel: Booting paravirtualized kernel on KVM
+2025-12-07T11:14:34.311393+05:00 ubu24-tst kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+2025-12-07T11:14:34.311395+05:00 ubu24-tst kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+2025-12-07T11:14:34.311396+05:00 ubu24-tst kernel: percpu: Embedded 88 pages/cpu s237568 r8192 d114688 u1048576
+2025-12-07T11:14:34.311397+05:00 ubu24-tst kernel: pcpu-alloc: s237568 r8192 d114688 u1048576 alloc=1*2097152
+2025-12-07T11:14:34.311397+05:00 ubu24-tst kernel: pcpu-alloc: [0] 0 1 
+2025-12-07T11:14:34.311398+05:00 ubu24-tst kernel: kvm-guest: PV spinlocks enabled
+2025-12-07T11:14:34.311404+05:00 ubu24-tst kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+2025-12-07T11:14:34.311530+05:00 ubu24-tst kernel: Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.14.0-36-generic root=UUID=f8d4db51-6a0e-4c25-8eea-1b5d8868647c ro quiet splash vt.handoff=7
+2025-12-07T11:14:34.311533+05:00 ubu24-tst kernel: Unknown kernel command line parameters "splash BOOT_IMAGE=/boot/vmlinuz-6.14.0-36-generic", will be passed to user space.
+2025-12-07T11:14:34.311534+05:00 ubu24-tst kernel: printk: log buffer data + meta data: 262144 + 917504 = 1179648 bytes
+2025-12-07T11:14:34.311535+05:00 ubu24-tst kernel: Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+2025-12-07T11:14:34.311536+05:00 ubu24-tst kernel: Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+2025-12-07T11:14:34.311545+05:00 ubu24-tst kernel: Fallback order for Node 0: 0 
+2025-12-07T11:14:34.311547+05:00 ubu24-tst kernel: Built 1 zonelists, mobility grouping on.  Total pages: 781537
+2025-12-07T11:14:34.311548+05:00 ubu24-tst kernel: Policy zone: DMA32
+2025-12-07T11:14:34.311549+05:00 ubu24-tst kernel: mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+2025-12-07T11:14:34.311550+05:00 ubu24-tst kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+2025-12-07T11:14:34.311551+05:00 ubu24-tst kernel: Kernel/User page tables isolation: enabled
+2025-12-07T11:14:34.311561+05:00 ubu24-tst kernel: ftrace: allocating 60485 entries in 237 pages
+2025-12-07T11:14:34.311563+05:00 ubu24-tst kernel: ftrace: allocated 237 pages with 6 groups
+2025-12-07T11:14:34.311564+05:00 ubu24-tst kernel: Dynamic Preempt: voluntary
+2025-12-07T11:14:34.311565+05:00 ubu24-tst kernel: rcu: Preemptible hierarchical RCU implementation.
+2025-12-07T11:14:34.311566+05:00 ubu24-tst kernel: rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+2025-12-07T11:14:34.311566+05:00 ubu24-tst kernel: 	Trampoline variant of Tasks RCU enabled.
+2025-12-07T11:14:34.311567+05:00 ubu24-tst kernel: 	Rude variant of Tasks RCU enabled.
+2025-12-07T11:14:34.311573+05:00 ubu24-tst kernel: 	Tracing variant of Tasks RCU enabled.
+2025-12-07T11:14:34.311574+05:00 ubu24-tst kernel: rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+2025-12-07T11:14:34.311575+05:00 ubu24-tst kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+2025-12-07T11:14:34.311576+05:00 ubu24-tst kernel: RCU Tasks: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2025-12-07T11:14:34.311577+05:00 ubu24-tst kernel: RCU Tasks Rude: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2025-12-07T11:14:34.311577+05:00 ubu24-tst kernel: RCU Tasks Trace: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2025-12-07T11:14:34.311583+05:00 ubu24-tst kernel: NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+2025-12-07T11:14:34.311584+05:00 ubu24-tst kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+2025-12-07T11:14:34.311585+05:00 ubu24-tst kernel: Console: colour dummy device 80x25
+2025-12-07T11:14:34.311586+05:00 ubu24-tst kernel: printk: legacy console [tty0] enabled
+2025-12-07T11:14:34.311587+05:00 ubu24-tst kernel: ACPI: Core revision 20240827
+2025-12-07T11:14:34.311588+05:00 ubu24-tst kernel: APIC: Switch to symmetric I/O mode setup
+2025-12-07T11:14:34.311616+05:00 ubu24-tst kernel: x2apic enabled
+2025-12-07T11:14:34.311618+05:00 ubu24-tst kernel: APIC: Switched APIC routing to: physical x2apic
+2025-12-07T11:14:34.311620+05:00 ubu24-tst kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+2025-12-07T11:14:34.311621+05:00 ubu24-tst kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x29b50a8eb5a, max_idle_ns: 440795326788 ns
+2025-12-07T11:14:34.311622+05:00 ubu24-tst kernel: Calibrating delay loop (skipped) preset value.. 5786.87 BogoMIPS (lpj=2893436)
+2025-12-07T11:14:34.311623+05:00 ubu24-tst kernel: Last level iTLB entries: 4KB 512, 2MB 8, 4MB 8
+2025-12-07T11:14:34.311623+05:00 ubu24-tst kernel: Last level dTLB entries: 4KB 512, 2MB 32, 4MB 32, 1GB 0
+2025-12-07T11:14:34.311630+05:00 ubu24-tst kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+2025-12-07T11:14:34.311632+05:00 ubu24-tst kernel: Spectre V2 : Mitigation: Retpolines
+2025-12-07T11:14:34.311632+05:00 ubu24-tst kernel: Spectre V2 : Spectre v2 / SpectreRSB: Filling RSB on context switch and VMEXIT
+2025-12-07T11:14:34.311633+05:00 ubu24-tst kernel: Speculative Store Bypass: Vulnerable
+2025-12-07T11:14:34.311634+05:00 ubu24-tst kernel: MDS: Mitigation: Clear CPU buffers
+2025-12-07T11:14:34.311635+05:00 ubu24-tst kernel: MMIO Stale Data: Unknown: No mitigations
+2025-12-07T11:14:34.311640+05:00 ubu24-tst kernel: SRBDS: Unknown: Dependent on hypervisor status
+2025-12-07T11:14:34.311642+05:00 ubu24-tst kernel: ITS: Mitigation: Aligned branch/return thunks
+2025-12-07T11:14:34.311643+05:00 ubu24-tst kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+2025-12-07T11:14:34.311643+05:00 ubu24-tst kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+2025-12-07T11:14:34.311644+05:00 ubu24-tst kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+2025-12-07T11:14:34.311645+05:00 ubu24-tst kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+2025-12-07T11:14:34.311650+05:00 ubu24-tst kernel: x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+2025-12-07T11:14:34.311652+05:00 ubu24-tst kernel: Freeing SMP alternatives memory: 48K
+2025-12-07T11:14:34.311653+05:00 ubu24-tst kernel: pid_max: default: 32768 minimum: 301
+2025-12-07T11:14:34.311654+05:00 ubu24-tst kernel: LSM: initializing lsm=lockdown,capability,landlock,yama,apparmor,ima,evm
+2025-12-07T11:14:34.311655+05:00 ubu24-tst kernel: landlock: Up and running.
+2025-12-07T11:14:34.311655+05:00 ubu24-tst kernel: Yama: becoming mindful.
+2025-12-07T11:14:34.311656+05:00 ubu24-tst kernel: AppArmor: AppArmor initialized
+2025-12-07T11:14:34.311662+05:00 ubu24-tst kernel: Mount-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+2025-12-07T11:14:34.311664+05:00 ubu24-tst kernel: Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+2025-12-07T11:14:34.311665+05:00 ubu24-tst kernel: APIC calibration not consistent with PM-Timer: 101ms instead of 100ms
+2025-12-07T11:14:34.311666+05:00 ubu24-tst kernel: APIC delta adjusted to PM-Timer: 6275181 (6341658)
+2025-12-07T11:14:34.311666+05:00 ubu24-tst kernel: smpboot: CPU0: Intel(R) Core(TM) i7-3520M CPU @ 2.90GHz (family: 0x6, model: 0x3a, stepping: 0x9)
+2025-12-07T11:14:34.311667+05:00 ubu24-tst kernel: Performance Events: unsupported p6 CPU model 58 no PMU driver, software events only.
+2025-12-07T11:14:34.311673+05:00 ubu24-tst kernel: signal: max sigframe size: 1776
+2025-12-07T11:14:34.311674+05:00 ubu24-tst kernel: rcu: Hierarchical SRCU implementation.
+2025-12-07T11:14:34.311675+05:00 ubu24-tst kernel: rcu: 	Max phase no-delay instances is 400.
+2025-12-07T11:14:34.311676+05:00 ubu24-tst kernel: Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level
+2025-12-07T11:14:34.311677+05:00 ubu24-tst kernel: NMI watchdog: Perf NMI watchdog permanently disabled
+2025-12-07T11:14:34.311677+05:00 ubu24-tst kernel: smp: Bringing up secondary CPUs ...
+2025-12-07T11:14:34.311678+05:00 ubu24-tst kernel: smpboot: x86: Booting SMP configuration:
+2025-12-07T11:14:34.311683+05:00 ubu24-tst kernel: .... node  #0, CPUs:      #1
+2025-12-07T11:14:34.311685+05:00 ubu24-tst kernel: smp: Brought up 1 node, 2 CPUs
+2025-12-07T11:14:34.311685+05:00 ubu24-tst kernel: smpboot: Total of 2 processors activated (11573.74 BogoMIPS)
+2025-12-07T11:14:34.311686+05:00 ubu24-tst kernel: Memory: 2929748K/3126148K available (21475K kernel code, 4587K rwdata, 15072K rodata, 5140K init, 4412K bss, 189192K reserved, 0K cma-reserved)
+2025-12-07T11:14:34.311687+05:00 ubu24-tst kernel: devtmpfs: initialized
+2025-12-07T11:14:34.311688+05:00 ubu24-tst kernel: x86/mm: Memory block size: 128MB
+2025-12-07T11:14:34.311693+05:00 ubu24-tst kernel: ACPI: PM: Registering ACPI NVS region [mem 0xbed7f000-0xbedfefff] (524288 bytes)
+2025-12-07T11:14:34.311695+05:00 ubu24-tst kernel: ACPI: PM: Registering ACPI NVS region [mem 0xbf131000-0xbf132fff] (8192 bytes)
+2025-12-07T11:14:34.311695+05:00 ubu24-tst kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+2025-12-07T11:14:34.311696+05:00 ubu24-tst kernel: futex hash table entries: 512 (order: 3, 32768 bytes, linear)
+2025-12-07T11:14:34.311697+05:00 ubu24-tst kernel: pinctrl core: initialized pinctrl subsystem
+2025-12-07T11:14:34.311698+05:00 ubu24-tst kernel: PM: RTC time: 06:14:25, date: 2025-12-07
+2025-12-07T11:14:34.311703+05:00 ubu24-tst kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+2025-12-07T11:14:34.311705+05:00 ubu24-tst kernel: DMA: preallocated 512 KiB GFP_KERNEL pool for atomic allocations
+2025-12-07T11:14:34.311706+05:00 ubu24-tst kernel: DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+2025-12-07T11:14:34.311707+05:00 ubu24-tst kernel: DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+2025-12-07T11:14:34.311707+05:00 ubu24-tst kernel: audit: initializing netlink subsys (disabled)
+2025-12-07T11:14:34.311708+05:00 ubu24-tst kernel: audit: type=2000 audit(1765088146.301:1): state=initialized audit_enabled=0 res=1
+2025-12-07T11:14:34.311720+05:00 ubu24-tst kernel: thermal_sys: Registered thermal governor 'fair_share'
+2025-12-07T11:14:34.311722+05:00 ubu24-tst kernel: thermal_sys: Registered thermal governor 'bang_bang'
+2025-12-07T11:14:34.311723+05:00 ubu24-tst kernel: thermal_sys: Registered thermal governor 'step_wise'
+2025-12-07T11:14:34.311723+05:00 ubu24-tst kernel: thermal_sys: Registered thermal governor 'user_space'
+2025-12-07T11:14:34.311724+05:00 ubu24-tst kernel: thermal_sys: Registered thermal governor 'power_allocator'
+2025-12-07T11:14:34.311725+05:00 ubu24-tst kernel: cpuidle: using governor ladder
+2025-12-07T11:14:34.311726+05:00 ubu24-tst kernel: cpuidle: using governor menu
+2025-12-07T11:14:34.311743+05:00 ubu24-tst kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+2025-12-07T11:14:34.311745+05:00 ubu24-tst kernel: PCI: Using configuration type 1 for base access
+2025-12-07T11:14:34.311746+05:00 ubu24-tst kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+2025-12-07T11:14:34.311746+05:00 ubu24-tst kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+2025-12-07T11:14:34.311747+05:00 ubu24-tst kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+2025-12-07T11:14:34.311748+05:00 ubu24-tst kernel: ACPI: Added _OSI(Module Device)
+2025-12-07T11:14:34.311758+05:00 ubu24-tst kernel: ACPI: Added _OSI(Processor Device)
+2025-12-07T11:14:34.311760+05:00 ubu24-tst kernel: ACPI: Added _OSI(Processor Aggregator Device)
+2025-12-07T11:14:34.311761+05:00 ubu24-tst kernel: ACPI: 2 ACPI AML tables successfully acquired and loaded
+2025-12-07T11:14:34.311762+05:00 ubu24-tst kernel: ACPI: Interpreter enabled
+2025-12-07T11:14:34.311763+05:00 ubu24-tst kernel: ACPI: PM: (supports S0 S5)
+2025-12-07T11:14:34.311764+05:00 ubu24-tst kernel: ACPI: Using IOAPIC for interrupt routing
+2025-12-07T11:14:34.311764+05:00 ubu24-tst kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+2025-12-07T11:14:34.311775+05:00 ubu24-tst kernel: PCI: Using E820 reservations for host bridge windows
+2025-12-07T11:14:34.311776+05:00 ubu24-tst kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+2025-12-07T11:14:34.320723+05:00 ubu24-tst kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+2025-12-07T11:14:34.320734+05:00 ubu24-tst kernel: acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI EDR HPX-Type3]
+2025-12-07T11:14:34.320734+05:00 ubu24-tst kernel: acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+2025-12-07T11:14:34.320735+05:00 ubu24-tst kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+2025-12-07T11:14:34.320758+05:00 ubu24-tst kernel: PCI host bridge to bus 0000:00
+2025-12-07T11:14:34.320760+05:00 ubu24-tst kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+2025-12-07T11:14:34.320760+05:00 ubu24-tst kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+2025-12-07T11:14:34.320761+05:00 ubu24-tst kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+2025-12-07T11:14:34.320761+05:00 ubu24-tst kernel: pci_bus 0000:00: root bus resource [mem 0xc0000000-0xfdffffff window]
+2025-12-07T11:14:34.320762+05:00 ubu24-tst kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+2025-12-07T11:14:34.320769+05:00 ubu24-tst kernel: pci 0000:00:00.0: [8086:1237] type 00 class 0x060000 conventional PCI endpoint
+2025-12-07T11:14:34.320770+05:00 ubu24-tst kernel: pci 0000:00:01.0: [8086:7000] type 00 class 0x060100 conventional PCI endpoint
+2025-12-07T11:14:34.320770+05:00 ubu24-tst kernel: pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a conventional PCI endpoint
+2025-12-07T11:14:34.320771+05:00 ubu24-tst kernel: pci 0000:00:01.1: BAR 4 [io  0xc180-0xc18f]
+2025-12-07T11:14:34.320771+05:00 ubu24-tst kernel: pci 0000:00:01.1: BAR 0 [io  0x01f0-0x01f7]: legacy IDE quirk
+2025-12-07T11:14:34.320772+05:00 ubu24-tst kernel: pci 0000:00:01.1: BAR 1 [io  0x03f6]: legacy IDE quirk
+2025-12-07T11:14:34.320772+05:00 ubu24-tst kernel: pci 0000:00:01.1: BAR 2 [io  0x0170-0x0177]: legacy IDE quirk
+2025-12-07T11:14:34.320778+05:00 ubu24-tst kernel: pci 0000:00:01.1: BAR 3 [io  0x0376]: legacy IDE quirk
+2025-12-07T11:14:34.320780+05:00 ubu24-tst kernel: pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000 conventional PCI endpoint
+2025-12-07T11:14:34.320780+05:00 ubu24-tst kernel: pci 0000:00:02.0: BAR 0 [io  0xc170-0xc17f]
+2025-12-07T11:14:34.320781+05:00 ubu24-tst kernel: pci 0000:00:02.0: BAR 1 [mem 0xc0000000-0xc0ffffff pref]
+2025-12-07T11:14:34.320781+05:00 ubu24-tst kernel: pci 0000:00:02.0: BAR 2 [mem 0xc1400000-0xc15fffff]
+2025-12-07T11:14:34.320782+05:00 ubu24-tst kernel: pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+2025-12-07T11:14:34.320788+05:00 ubu24-tst kernel: pci 0000:00:03.0: [8086:100e] type 00 class 0x020000 conventional PCI endpoint
+2025-12-07T11:14:34.320789+05:00 ubu24-tst kernel: pci 0000:00:03.0: BAR 0 [mem 0xc1600000-0xc161ffff]
+2025-12-07T11:14:34.320789+05:00 ubu24-tst kernel: pci 0000:00:03.0: BAR 2 [io  0xc1a0-0xc1a7]
+2025-12-07T11:14:34.320790+05:00 ubu24-tst kernel: pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000 conventional PCI endpoint
+2025-12-07T11:14:34.320790+05:00 ubu24-tst kernel: pci 0000:00:04.0: BAR 0 [io  0xc140-0xc15f]
+2025-12-07T11:14:34.320791+05:00 ubu24-tst kernel: pci 0000:00:04.0: BAR 1 [mem 0xc1000000-0xc13fffff]
+2025-12-07T11:14:34.320797+05:00 ubu24-tst kernel: pci 0000:00:04.0: BAR 2 [mem 0xc1620000-0xc1623fff pref]
+2025-12-07T11:14:34.320798+05:00 ubu24-tst kernel: pci 0000:00:05.0: [8086:2415] type 00 class 0x040100 conventional PCI endpoint
+2025-12-07T11:14:34.320798+05:00 ubu24-tst kernel: pci 0000:00:05.0: BAR 0 [io  0xc000-0xc0ff]
+2025-12-07T11:14:34.320799+05:00 ubu24-tst kernel: pci 0000:00:05.0: BAR 1 [io  0xc100-0xc13f]
+2025-12-07T11:14:34.320799+05:00 ubu24-tst kernel: pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310 conventional PCI endpoint
+2025-12-07T11:14:34.320800+05:00 ubu24-tst kernel: pci 0000:00:06.0: BAR 0 [mem 0xc1627000-0xc1627fff]
+2025-12-07T11:14:34.320800+05:00 ubu24-tst kernel: pci 0000:00:07.0: [8086:7113] type 00 class 0x068000 conventional PCI endpoint
+2025-12-07T11:14:34.320806+05:00 ubu24-tst kernel: pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+2025-12-07T11:14:34.320807+05:00 ubu24-tst kernel: pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+2025-12-07T11:14:34.320808+05:00 ubu24-tst kernel: pci 0000:00:0b.0: [8086:265c] type 00 class 0x0c0320 conventional PCI endpoint
+2025-12-07T11:14:34.320808+05:00 ubu24-tst kernel: pci 0000:00:0b.0: BAR 0 [mem 0xc1626000-0xc1626fff]
+2025-12-07T11:14:34.320808+05:00 ubu24-tst kernel: pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601 conventional PCI endpoint
+2025-12-07T11:14:34.320809+05:00 ubu24-tst kernel: pci 0000:00:0d.0: BAR 0 [io  0xc198-0xc19f]
+2025-12-07T11:14:34.320820+05:00 ubu24-tst kernel: pci 0000:00:0d.0: BAR 1 [io  0xc1ac-0xc1af]
+2025-12-07T11:14:34.320821+05:00 ubu24-tst kernel: pci 0000:00:0d.0: BAR 2 [io  0xc190-0xc197]
+2025-12-07T11:14:34.320822+05:00 ubu24-tst kernel: pci 0000:00:0d.0: BAR 3 [io  0xc1a8-0xc1ab]
+2025-12-07T11:14:34.320822+05:00 ubu24-tst kernel: pci 0000:00:0d.0: BAR 4 [io  0xc160-0xc16f]
+2025-12-07T11:14:34.320822+05:00 ubu24-tst kernel: pci 0000:00:0d.0: BAR 5 [mem 0xc1624000-0xc1625fff]
+2025-12-07T11:14:34.320823+05:00 ubu24-tst kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 10
+2025-12-07T11:14:34.320823+05:00 ubu24-tst kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+2025-12-07T11:14:34.320829+05:00 ubu24-tst kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 11
+2025-12-07T11:14:34.320831+05:00 ubu24-tst kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+2025-12-07T11:14:34.320831+05:00 ubu24-tst kernel: iommu: Default domain type: Translated
+2025-12-07T11:14:34.320832+05:00 ubu24-tst kernel: iommu: DMA domain TLB invalidation policy: lazy mode
+2025-12-07T11:14:34.320832+05:00 ubu24-tst kernel: SCSI subsystem initialized
+2025-12-07T11:14:34.320832+05:00 ubu24-tst kernel: libata version 3.00 loaded.
+2025-12-07T11:14:34.320839+05:00 ubu24-tst kernel: ACPI: bus type USB registered
+2025-12-07T11:14:34.320840+05:00 ubu24-tst kernel: usbcore: registered new interface driver usbfs
+2025-12-07T11:14:34.320840+05:00 ubu24-tst kernel: usbcore: registered new interface driver hub
+2025-12-07T11:14:34.320841+05:00 ubu24-tst kernel: usbcore: registered new device driver usb
+2025-12-07T11:14:34.320841+05:00 ubu24-tst kernel: pps_core: LinuxPPS API ver. 1 registered
+2025-12-07T11:14:34.320841+05:00 ubu24-tst kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+2025-12-07T11:14:34.320847+05:00 ubu24-tst kernel: PTP clock support registered
+2025-12-07T11:14:34.320849+05:00 ubu24-tst kernel: EDAC MC: Ver: 3.0.0
+2025-12-07T11:14:34.320849+05:00 ubu24-tst kernel: efivars: Registered efivars operations
+2025-12-07T11:14:34.320849+05:00 ubu24-tst kernel: NetLabel: Initializing
+2025-12-07T11:14:34.320850+05:00 ubu24-tst kernel: NetLabel:  domain hash size = 128
+2025-12-07T11:14:34.320850+05:00 ubu24-tst kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+2025-12-07T11:14:34.320851+05:00 ubu24-tst kernel: NetLabel:  unlabeled traffic allowed by default
+2025-12-07T11:14:34.321027+05:00 ubu24-tst kernel: mctp: management component transport protocol core
+2025-12-07T11:14:34.321031+05:00 ubu24-tst kernel: NET: Registered PF_MCTP protocol family
+2025-12-07T11:14:34.321032+05:00 ubu24-tst kernel: PCI: Using ACPI for IRQ routing
+2025-12-07T11:14:34.321032+05:00 ubu24-tst kernel: PCI: pci_cache_line_size set to 64 bytes
+2025-12-07T11:14:34.321032+05:00 ubu24-tst kernel: e820: reserve RAM buffer [mem 0xbd3c0000-0xbfffffff]
+2025-12-07T11:14:34.321033+05:00 ubu24-tst kernel: e820: reserve RAM buffer [mem 0xbdea2000-0xbfffffff]
+2025-12-07T11:14:34.321041+05:00 ubu24-tst kernel: e820: reserve RAM buffer [mem 0xbeaed000-0xbfffffff]
+2025-12-07T11:14:34.321042+05:00 ubu24-tst kernel: e820: reserve RAM buffer [mem 0xbf12d000-0xbfffffff]
+2025-12-07T11:14:34.321043+05:00 ubu24-tst kernel: e820: reserve RAM buffer [mem 0xbf16e000-0xbfffffff]
+2025-12-07T11:14:34.321043+05:00 ubu24-tst kernel: pci 0000:00:02.0: vgaarb: setting as boot VGA device
+2025-12-07T11:14:34.321044+05:00 ubu24-tst kernel: pci 0000:00:02.0: vgaarb: bridge control possible
+2025-12-07T11:14:34.321044+05:00 ubu24-tst kernel: pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+2025-12-07T11:14:34.321045+05:00 ubu24-tst kernel: vgaarb: loaded
+2025-12-07T11:14:34.321051+05:00 ubu24-tst kernel: clocksource: Switched to clocksource kvm-clock
+2025-12-07T11:14:34.321052+05:00 ubu24-tst kernel: VFS: Disk quotas dquot_6.6.0
+2025-12-07T11:14:34.321053+05:00 ubu24-tst kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+2025-12-07T11:14:34.321053+05:00 ubu24-tst kernel: AppArmor: AppArmor Filesystem Enabled
+2025-12-07T11:14:34.321053+05:00 ubu24-tst kernel: pnp: PnP ACPI init
+2025-12-07T11:14:34.321054+05:00 ubu24-tst kernel: pnp: PnP ACPI: found 2 devices
+2025-12-07T11:14:34.321060+05:00 ubu24-tst kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+2025-12-07T11:14:34.321061+05:00 ubu24-tst kernel: NET: Registered PF_INET protocol family
+2025-12-07T11:14:34.321062+05:00 ubu24-tst kernel: IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)
+2025-12-07T11:14:34.321062+05:00 ubu24-tst kernel: tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes, linear)
+2025-12-07T11:14:34.321062+05:00 ubu24-tst kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+2025-12-07T11:14:34.321063+05:00 ubu24-tst kernel: TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)
+2025-12-07T11:14:34.321069+05:00 ubu24-tst kernel: TCP bind hash table entries: 32768 (order: 8, 1048576 bytes, linear)
+2025-12-07T11:14:34.321070+05:00 ubu24-tst kernel: TCP: Hash tables configured (established 32768 bind 32768)
+2025-12-07T11:14:34.321070+05:00 ubu24-tst kernel: MPTCP token hash table entries: 4096 (order: 4, 98304 bytes, linear)
+2025-12-07T11:14:34.321071+05:00 ubu24-tst kernel: UDP hash table entries: 2048 (order: 5, 131072 bytes, linear)
+2025-12-07T11:14:34.321071+05:00 ubu24-tst kernel: UDP-Lite hash table entries: 2048 (order: 5, 131072 bytes, linear)
+2025-12-07T11:14:34.321072+05:00 ubu24-tst kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+2025-12-07T11:14:34.321072+05:00 ubu24-tst kernel: NET: Registered PF_XDP protocol family
+2025-12-07T11:14:34.321079+05:00 ubu24-tst kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+2025-12-07T11:14:34.321080+05:00 ubu24-tst kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+2025-12-07T11:14:34.321080+05:00 ubu24-tst kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+2025-12-07T11:14:34.321081+05:00 ubu24-tst kernel: pci_bus 0000:00: resource 7 [mem 0xc0000000-0xfdffffff window]
+2025-12-07T11:14:34.321081+05:00 ubu24-tst kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+2025-12-07T11:14:34.321082+05:00 ubu24-tst kernel: PCI: CLS 0 bytes, default 64
+2025-12-07T11:14:34.321088+05:00 ubu24-tst kernel: Trying to unpack rootfs image as initramfs...
+2025-12-07T11:14:34.321089+05:00 ubu24-tst kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x29b50a8eb5a, max_idle_ns: 440795326788 ns
+2025-12-07T11:14:34.321089+05:00 ubu24-tst kernel: clocksource: Switched to clocksource tsc
+2025-12-07T11:14:34.321090+05:00 ubu24-tst kernel: platform rtc_cmos: registered platform RTC device (no PNP device found)
+2025-12-07T11:14:34.322048+05:00 ubu24-tst kernel: Initialise system trusted keyrings
+2025-12-07T11:14:34.322055+05:00 ubu24-tst kernel: Key type blacklist registered
+2025-12-07T11:14:34.322056+05:00 ubu24-tst kernel: workingset: timestamp_bits=36 max_order=20 bucket_order=0
+2025-12-07T11:14:34.322071+05:00 ubu24-tst kernel: zbud: loaded
+2025-12-07T11:14:34.322073+05:00 ubu24-tst kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+2025-12-07T11:14:34.322073+05:00 ubu24-tst kernel: fuse: init (API version 7.42)
+2025-12-07T11:14:34.322074+05:00 ubu24-tst kernel: integrity: Platform Keyring initialized
+2025-12-07T11:14:34.322074+05:00 ubu24-tst kernel: integrity: Machine keyring initialized
+2025-12-07T11:14:34.322075+05:00 ubu24-tst kernel: Key type asymmetric registered
+2025-12-07T11:14:34.322081+05:00 ubu24-tst kernel: Asymmetric key parser 'x509' registered
+2025-12-07T11:14:34.322082+05:00 ubu24-tst kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 243)
+2025-12-07T11:14:34.322083+05:00 ubu24-tst kernel: io scheduler mq-deadline registered
+2025-12-07T11:14:34.322083+05:00 ubu24-tst kernel: ledtrig-cpu: registered to indicate activity on CPUs
+2025-12-07T11:14:34.322084+05:00 ubu24-tst kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+2025-12-07T11:14:34.322084+05:00 ubu24-tst kernel: ACPI: AC: AC Adapter [AC] (on-line)
+2025-12-07T11:14:34.322090+05:00 ubu24-tst kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+2025-12-07T11:14:34.322092+05:00 ubu24-tst kernel: ACPI: button: Power Button [PWRF]
+2025-12-07T11:14:34.322092+05:00 ubu24-tst kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+2025-12-07T11:14:34.322092+05:00 ubu24-tst kernel: ACPI: button: Sleep Button [SLPF]
+2025-12-07T11:14:34.322093+05:00 ubu24-tst kernel: ACPI: battery: Slot [BAT0] (battery present)
+2025-12-07T11:14:34.322093+05:00 ubu24-tst kernel: Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+2025-12-07T11:14:34.322094+05:00 ubu24-tst kernel: Linux agpgart interface v0.103
+2025-12-07T11:14:34.322100+05:00 ubu24-tst kernel: loop: module loaded
+2025-12-07T11:14:34.322101+05:00 ubu24-tst kernel: ata_piix 0000:00:01.1: version 2.13
+2025-12-07T11:14:34.322101+05:00 ubu24-tst kernel: scsi host0: ata_piix
+2025-12-07T11:14:34.322102+05:00 ubu24-tst kernel: scsi host1: ata_piix
+2025-12-07T11:14:34.322103+05:00 ubu24-tst kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xc180 irq 14 lpm-pol 0
+2025-12-07T11:14:34.322103+05:00 ubu24-tst kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xc188 irq 15 lpm-pol 0
+2025-12-07T11:14:34.322109+05:00 ubu24-tst kernel: ACPI: bus type drm_connector registered
+2025-12-07T11:14:34.322110+05:00 ubu24-tst kernel: tun: Universal TUN/TAP device driver, 1.6
+2025-12-07T11:14:34.322111+05:00 ubu24-tst kernel: PPP generic driver version 2.4.2
+2025-12-07T11:14:34.322111+05:00 ubu24-tst kernel: ehci-pci 0000:00:0b.0: EHCI Host Controller
+2025-12-07T11:14:34.322111+05:00 ubu24-tst kernel: ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 1
+2025-12-07T11:14:34.322112+05:00 ubu24-tst kernel: ehci-pci 0000:00:0b.0: irq 19, io mem 0xc1626000
+2025-12-07T11:14:34.322112+05:00 ubu24-tst kernel: ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+2025-12-07T11:14:34.322118+05:00 ubu24-tst kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.14
+2025-12-07T11:14:34.322119+05:00 ubu24-tst kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+2025-12-07T11:14:34.322120+05:00 ubu24-tst kernel: usb usb1: Product: EHCI Host Controller
+2025-12-07T11:14:34.322120+05:00 ubu24-tst kernel: usb usb1: Manufacturer: Linux 6.14.0-36-generic ehci_hcd
+2025-12-07T11:14:34.322121+05:00 ubu24-tst kernel: usb usb1: SerialNumber: 0000:00:0b.0
+2025-12-07T11:14:34.322121+05:00 ubu24-tst kernel: hub 1-0:1.0: USB hub found
+2025-12-07T11:14:34.322127+05:00 ubu24-tst kernel: hub 1-0:1.0: 12 ports detected
+2025-12-07T11:14:34.322128+05:00 ubu24-tst kernel: ohci-pci 0000:00:06.0: OHCI PCI host controller
+2025-12-07T11:14:34.322129+05:00 ubu24-tst kernel: ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 2
+2025-12-07T11:14:34.322129+05:00 ubu24-tst kernel: ohci-pci 0000:00:06.0: irq 22, io mem 0xc1627000
+2025-12-07T11:14:34.322130+05:00 ubu24-tst kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.14
+2025-12-07T11:14:34.322130+05:00 ubu24-tst kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+2025-12-07T11:14:34.322136+05:00 ubu24-tst kernel: usb usb2: Product: OHCI PCI host controller
+2025-12-07T11:14:34.322137+05:00 ubu24-tst kernel: usb usb2: Manufacturer: Linux 6.14.0-36-generic ohci_hcd
+2025-12-07T11:14:34.322141+05:00 ubu24-tst kernel: usb usb2: SerialNumber: 0000:00:06.0
+2025-12-07T11:14:34.322142+05:00 ubu24-tst kernel: hub 2-0:1.0: USB hub found
+2025-12-07T11:14:34.322142+05:00 ubu24-tst kernel: hub 2-0:1.0: 12 ports detected
+2025-12-07T11:14:34.322143+05:00 ubu24-tst kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+2025-12-07T11:14:34.322143+05:00 ubu24-tst kernel: Freeing initrd memory: 78908K
+2025-12-07T11:14:34.322149+05:00 ubu24-tst kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+2025-12-07T11:14:34.322150+05:00 ubu24-tst kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+2025-12-07T11:14:34.322151+05:00 ubu24-tst kernel: mousedev: PS/2 mouse device common for all mice
+2025-12-07T11:14:34.322151+05:00 ubu24-tst kernel: ata1.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+2025-12-07T11:14:34.322152+05:00 ubu24-tst kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+2025-12-07T11:14:34.322152+05:00 ubu24-tst kernel: scsi 0:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+2025-12-07T11:14:34.322158+05:00 ubu24-tst kernel: rtc_cmos rtc_cmos: registered as rtc0
+2025-12-07T11:14:34.322159+05:00 ubu24-tst kernel: rtc_cmos rtc_cmos: setting system clock to 2025-12-07T06:14:25 UTC (1765088065)
+2025-12-07T11:14:34.322160+05:00 ubu24-tst kernel: rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+2025-12-07T11:14:34.322160+05:00 ubu24-tst kernel: i2c_dev: i2c /dev entries driver
+2025-12-07T11:14:34.322161+05:00 ubu24-tst kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+2025-12-07T11:14:34.322161+05:00 ubu24-tst kernel: device-mapper: uevent: version 1.0.3
+2025-12-07T11:14:34.322167+05:00 ubu24-tst kernel: device-mapper: ioctl: 4.49.0-ioctl (2025-01-17) initialised: dm-devel@lists.linux.dev
+2025-12-07T11:14:34.322168+05:00 ubu24-tst kernel: intel_pstate: CPU model not supported
+2025-12-07T11:14:34.322169+05:00 ubu24-tst kernel: simple-framebuffer simple-framebuffer.0: [drm] Registered 1 planes with drm panic
+2025-12-07T11:14:34.322169+05:00 ubu24-tst kernel: [drm] Initialized simpledrm 1.0.0 for simple-framebuffer.0 on minor 0
+2025-12-07T11:14:34.322170+05:00 ubu24-tst kernel: fbcon: Deferring console take-over
+2025-12-07T11:14:34.322170+05:00 ubu24-tst kernel: simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+2025-12-07T11:14:34.322171+05:00 ubu24-tst kernel: drop_monitor: Initializing network drop monitor service
+2025-12-07T11:14:34.322177+05:00 ubu24-tst kernel: NET: Registered PF_INET6 protocol family
+2025-12-07T11:14:34.322178+05:00 ubu24-tst kernel: sr 0:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+2025-12-07T11:14:34.322178+05:00 ubu24-tst kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+2025-12-07T11:14:34.322179+05:00 ubu24-tst kernel: sr 0:0:0:0: Attached scsi CD-ROM sr0
+2025-12-07T11:14:34.322179+05:00 ubu24-tst kernel: sr 0:0:0:0: Attached scsi generic sg0 type 5
+2025-12-07T11:14:34.322179+05:00 ubu24-tst kernel: Segment Routing with IPv6
+2025-12-07T11:14:34.322185+05:00 ubu24-tst kernel: In-situ OAM (IOAM) with IPv6
+2025-12-07T11:14:34.322187+05:00 ubu24-tst kernel: NET: Registered PF_PACKET protocol family
+2025-12-07T11:14:34.322187+05:00 ubu24-tst kernel: Key type dns_resolver registered
+2025-12-07T11:14:34.322187+05:00 ubu24-tst kernel: IPI shorthand broadcast: enabled
+2025-12-07T11:14:34.322188+05:00 ubu24-tst kernel: sched_clock: Marking stable (639039292, 1799526)->(643467846, -2629028)
+2025-12-07T11:14:34.322188+05:00 ubu24-tst kernel: registered taskstats version 1
+2025-12-07T11:14:34.322189+05:00 ubu24-tst kernel: Loading compiled-in X.509 certificates
+2025-12-07T11:14:34.322195+05:00 ubu24-tst kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 8b36fd28f65dfd2d1aa9217f7ad04c787ba44f35'
+2025-12-07T11:14:34.322196+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing 2025 Kmod: d541cef61dc7e793b7eb7e899970a2eef0b5dc8c'
+2025-12-07T11:14:34.322196+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+2025-12-07T11:14:34.322197+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+2025-12-07T11:14:34.322197+05:00 ubu24-tst kernel: blacklist: Loading compiled-in revocation X.509 certificates
+2025-12-07T11:14:34.322198+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+2025-12-07T11:14:34.322204+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+2025-12-07T11:14:34.322205+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+2025-12-07T11:14:34.322205+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+2025-12-07T11:14:34.322206+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+2025-12-07T11:14:34.322206+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+2025-12-07T11:14:34.322212+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+2025-12-07T11:14:34.322214+05:00 ubu24-tst kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+2025-12-07T11:14:34.322214+05:00 ubu24-tst kernel: Demotion targets for Node 0: null
+2025-12-07T11:14:34.322214+05:00 ubu24-tst kernel: Key type .fscrypt registered
+2025-12-07T11:14:34.322215+05:00 ubu24-tst kernel: Key type fscrypt-provisioning registered
+2025-12-07T11:14:34.322215+05:00 ubu24-tst kernel: Key type encrypted registered
+2025-12-07T11:14:34.322226+05:00 ubu24-tst kernel: AppArmor: AppArmor sha256 policy hashing enabled
+2025-12-07T11:14:34.322227+05:00 ubu24-tst kernel: ima: No TPM chip found, activating TPM-bypass!
+2025-12-07T11:14:34.322227+05:00 ubu24-tst kernel: Loading compiled-in module X.509 certificates
+2025-12-07T11:14:34.322228+05:00 ubu24-tst kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 8b36fd28f65dfd2d1aa9217f7ad04c787ba44f35'
+2025-12-07T11:14:34.322228+05:00 ubu24-tst kernel: ima: Allocated hash algorithm: sha256
+2025-12-07T11:14:34.322229+05:00 ubu24-tst kernel: ima: No architecture policies found
+2025-12-07T11:14:34.322229+05:00 ubu24-tst kernel: evm: Initialising EVM extended attributes:
+2025-12-07T11:14:34.322235+05:00 ubu24-tst kernel: evm: security.selinux
+2025-12-07T11:14:34.322236+05:00 ubu24-tst kernel: evm: security.SMACK64
+2025-12-07T11:14:34.322237+05:00 ubu24-tst kernel: evm: security.SMACK64EXEC
+2025-12-07T11:14:34.322292+05:00 ubu24-tst kernel: evm: security.SMACK64TRANSMUTE
+2025-12-07T11:14:34.322293+05:00 ubu24-tst kernel: evm: security.SMACK64MMAP
+2025-12-07T11:14:34.322293+05:00 ubu24-tst kernel: evm: security.apparmor
+2025-12-07T11:14:34.322300+05:00 ubu24-tst kernel: evm: security.ima
+2025-12-07T11:14:34.322301+05:00 ubu24-tst kernel: evm: security.capability
+2025-12-07T11:14:34.322302+05:00 ubu24-tst kernel: evm: HMAC attrs: 0x1
+2025-12-07T11:14:34.322302+05:00 ubu24-tst kernel: PM:   Magic number: 5:365:215
+2025-12-07T11:14:34.322303+05:00 ubu24-tst kernel: event_source software: hash matches
+2025-12-07T11:14:34.322303+05:00 ubu24-tst kernel: RAS: Correctable Errors collector initialized.
+2025-12-07T11:14:34.322309+05:00 ubu24-tst kernel: clk: Disabling unused clocks
+2025-12-07T11:14:34.322310+05:00 ubu24-tst kernel: PM: genpd: Disabling unused power domains
+2025-12-07T11:14:34.322311+05:00 ubu24-tst kernel: Freeing unused decrypted memory: 2028K
+2025-12-07T11:14:34.322311+05:00 ubu24-tst kernel: Freeing unused kernel image (initmem) memory: 5140K
+2025-12-07T11:14:34.322312+05:00 ubu24-tst kernel: Write protecting the kernel read-only data: 38912k
+2025-12-07T11:14:34.322312+05:00 ubu24-tst kernel: Freeing unused kernel image (text/rodata gap) memory: 1052K
+2025-12-07T11:14:34.322313+05:00 ubu24-tst kernel: Freeing unused kernel image (rodata/data gap) memory: 1312K
+2025-12-07T11:14:34.322319+05:00 ubu24-tst kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+2025-12-07T11:14:34.322320+05:00 ubu24-tst kernel: x86/mm: Checking user space page tables
+2025-12-07T11:14:34.322320+05:00 ubu24-tst kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+2025-12-07T11:14:34.322321+05:00 ubu24-tst kernel: Run /init as init process
+2025-12-07T11:14:34.322321+05:00 ubu24-tst kernel:   with arguments:
+2025-12-07T11:14:34.322321+05:00 ubu24-tst kernel:     /init
+2025-12-07T11:14:34.322327+05:00 ubu24-tst kernel:     splash
+2025-12-07T11:14:34.322328+05:00 ubu24-tst kernel:   with environment:
+2025-12-07T11:14:34.322329+05:00 ubu24-tst kernel:     HOME=/
+2025-12-07T11:14:34.322329+05:00 ubu24-tst kernel:     TERM=linux
+2025-12-07T11:14:34.322330+05:00 ubu24-tst kernel:     BOOT_IMAGE=/boot/vmlinuz-6.14.0-36-generic
+2025-12-07T11:14:34.322330+05:00 ubu24-tst kernel: usb 2-1: new full-speed USB device number 2 using ohci-pci
+2025-12-07T11:14:34.322331+05:00 ubu24-tst kernel: e1000: Intel(R) PRO/1000 Network Driver
+2025-12-07T11:14:34.322336+05:00 ubu24-tst kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+2025-12-07T11:14:34.322338+05:00 ubu24-tst kernel: ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+2025-12-07T11:14:34.322338+05:00 ubu24-tst kernel: input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4
+2025-12-07T11:14:34.322338+05:00 ubu24-tst kernel: ahci 0000:00:0d.0: version 3.0
+2025-12-07T11:14:34.322339+05:00 ubu24-tst kernel: ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+2025-12-07T11:14:34.322339+05:00 ubu24-tst kernel: ahci 0000:00:0d.0: AHCI vers 0001.0100, 32 command slots, 3 Gbps, SATA mode
+2025-12-07T11:14:34.322345+05:00 ubu24-tst kernel: ahci 0000:00:0d.0: 3/3 ports implemented (port mask 0x7)
+2025-12-07T11:14:34.322346+05:00 ubu24-tst kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+2025-12-07T11:14:34.322347+05:00 ubu24-tst kernel: scsi host2: ahci
+2025-12-07T11:14:34.322347+05:00 ubu24-tst kernel: scsi host3: ahci
+2025-12-07T11:14:34.322348+05:00 ubu24-tst kernel: scsi host4: ahci
+2025-12-07T11:14:34.322348+05:00 ubu24-tst kernel: ata3: SATA max UDMA/133 abar m8192@0xc1624000 port 0xc1624100 irq 21 lpm-pol 0
+2025-12-07T11:14:34.322354+05:00 ubu24-tst kernel: ata4: SATA max UDMA/133 abar m8192@0xc1624000 port 0xc1624180 irq 21 lpm-pol 0
+2025-12-07T11:14:34.322355+05:00 ubu24-tst kernel: ata5: SATA max UDMA/133 abar m8192@0xc1624000 port 0xc1624200 irq 21 lpm-pol 0
+2025-12-07T11:14:34.322356+05:00 ubu24-tst kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+2025-12-07T11:14:34.322356+05:00 ubu24-tst kernel: usb 2-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+2025-12-07T11:14:34.322357+05:00 ubu24-tst kernel: usb 2-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+2025-12-07T11:14:34.322357+05:00 ubu24-tst kernel: usb 2-1: Product: USB Tablet
+2025-12-07T11:14:34.322358+05:00 ubu24-tst kernel: usb 2-1: Manufacturer: VirtualBox
+2025-12-07T11:14:34.322363+05:00 ubu24-tst kernel: hid: raw HID events driver (C) Jiri Kosina
+2025-12-07T11:14:34.322365+05:00 ubu24-tst kernel: ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+2025-12-07T11:14:34.322365+05:00 ubu24-tst kernel: ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+2025-12-07T11:14:34.322366+05:00 ubu24-tst kernel: ata3.00: 83886080 sectors, multi 128: LBA48 NCQ (depth 32)
+2025-12-07T11:14:34.322366+05:00 ubu24-tst kernel: ata3.00: configured for UDMA/133
+2025-12-07T11:14:34.322366+05:00 ubu24-tst kernel: scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+2025-12-07T11:14:34.322372+05:00 ubu24-tst kernel: sd 2:0:0:0: [sda] 83886080 512-byte logical blocks: (42.9 GB/40.0 GiB)
+2025-12-07T11:14:34.322373+05:00 ubu24-tst kernel: sd 2:0:0:0: [sda] Write Protect is off
+2025-12-07T11:14:34.322374+05:00 ubu24-tst kernel: sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+2025-12-07T11:14:34.322374+05:00 ubu24-tst kernel: sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+2025-12-07T11:14:34.322375+05:00 ubu24-tst kernel: sd 2:0:0:0: [sda] Preferred minimum I/O size 512 bytes
+2025-12-07T11:14:34.322375+05:00 ubu24-tst kernel: sd 2:0:0:0: Attached scsi generic sg1 type 0
+2025-12-07T11:14:34.322376+05:00 ubu24-tst kernel:  sda: sda1 sda2
+2025-12-07T11:14:34.322382+05:00 ubu24-tst kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+2025-12-07T11:14:34.322383+05:00 ubu24-tst kernel: e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:9c:a2:de
+2025-12-07T11:14:34.322383+05:00 ubu24-tst kernel: e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+2025-12-07T11:14:34.322384+05:00 ubu24-tst kernel: ata4: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+2025-12-07T11:14:34.322384+05:00 ubu24-tst kernel: ata4.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+2025-12-07T11:14:34.322384+05:00 ubu24-tst kernel: ata4.00: 10485760 sectors, multi 128: LBA48 NCQ (depth 32)
+2025-12-07T11:14:34.322390+05:00 ubu24-tst kernel: ata4.00: configured for UDMA/133
+2025-12-07T11:14:34.322391+05:00 ubu24-tst kernel: scsi 3:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+2025-12-07T11:14:34.322392+05:00 ubu24-tst kernel: sd 3:0:0:0: [sdb] 10485760 512-byte logical blocks: (5.37 GB/5.00 GiB)
+2025-12-07T11:14:34.322392+05:00 ubu24-tst kernel: sd 3:0:0:0: [sdb] Write Protect is off
+2025-12-07T11:14:34.322393+05:00 ubu24-tst kernel: sd 3:0:0:0: [sdb] Mode Sense: 00 3a 00 00
+2025-12-07T11:14:34.322393+05:00 ubu24-tst kernel: sd 3:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+2025-12-07T11:14:34.322399+05:00 ubu24-tst kernel: sd 3:0:0:0: [sdb] Preferred minimum I/O size 512 bytes
+2025-12-07T11:14:34.322400+05:00 ubu24-tst kernel: sd 3:0:0:0: Attached scsi generic sg2 type 0
+2025-12-07T11:14:34.322401+05:00 ubu24-tst kernel:  sdb: sdb1
+2025-12-07T11:14:34.322401+05:00 ubu24-tst kernel: sd 3:0:0:0: [sdb] Attached SCSI disk
+2025-12-07T11:14:34.322402+05:00 ubu24-tst kernel: ata5: SATA link down (SStatus 0 SControl 300)
+2025-12-07T11:14:34.322402+05:00 ubu24-tst kernel: e1000 0000:00:03.0 enp0s3: renamed from eth0
+2025-12-07T11:14:34.322402+05:00 ubu24-tst kernel: usbcore: registered new interface driver usbhid
+2025-12-07T11:14:34.322408+05:00 ubu24-tst kernel: usbhid: USB HID core driver
+2025-12-07T11:14:34.322409+05:00 ubu24-tst kernel: input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input6
+2025-12-07T11:14:34.322410+05:00 ubu24-tst kernel: hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+2025-12-07T11:14:34.322410+05:00 ubu24-tst kernel: EXT4-fs (sda2): mounted filesystem f8d4db51-6a0e-4c25-8eea-1b5d8868647c ro with ordered data mode. Quota mode: none.
+2025-12-07T11:14:34.322519+05:00 ubu24-tst kernel: pstore: Using crash dump compression: deflate
+2025-12-07T11:14:34.322525+05:00 ubu24-tst kernel: pstore: Registered efi_pstore as persistent store backend
+2025-12-07T11:14:34.322535+05:00 ubu24-tst kernel: EXT4-fs (sda2): re-mounted f8d4db51-6a0e-4c25-8eea-1b5d8868647c r/w.
+2025-12-07T11:14:34.322537+05:00 ubu24-tst kernel: lp: driver loaded but no devices found
+2025-12-07T11:14:34.322543+05:00 ubu24-tst kernel: ppdev: user-space parallel port driver
+2025-12-07T11:14:34.322544+05:00 ubu24-tst kernel: Adding 3024892k swap on /swap.img.  Priority:-2 extents:2 across:3164156k 
+2025-12-07T11:14:34.322545+05:00 ubu24-tst kernel: loop0: detected capacity change from 0 to 8
+2025-12-07T11:14:34.322546+05:00 ubu24-tst kernel: loop1: detected capacity change from 0 to 151368
+2025-12-07T11:14:34.322552+05:00 ubu24-tst kernel: loop2: detected capacity change from 0 to 510136
+2025-12-07T11:14:34.322553+05:00 ubu24-tst kernel: loop3: detected capacity change from 0 to 151456
+2025-12-07T11:14:34.322553+05:00 ubu24-tst kernel: loop4: detected capacity change from 0 to 22800
+2025-12-07T11:14:34.322554+05:00 ubu24-tst kernel: loop5: detected capacity change from 0 to 513184
+2025-12-07T11:14:34.322554+05:00 ubu24-tst kernel: loop6: detected capacity change from 0 to 37864
+2025-12-07T11:14:34.322554+05:00 ubu24-tst kernel: loop7: detected capacity change from 0 to 1057184
+2025-12-07T11:14:34.322560+05:00 ubu24-tst kernel: loop8: detected capacity change from 0 to 1056784
+2025-12-07T11:14:34.322562+05:00 ubu24-tst kernel: loop9: detected capacity change from 0 to 187776
+2025-12-07T11:14:34.322562+05:00 ubu24-tst kernel: loop10: detected capacity change from 0 to 22176
+2025-12-07T11:14:34.322563+05:00 ubu24-tst kernel: loop12: detected capacity change from 0 to 104296
+2025-12-07T11:14:34.322563+05:00 ubu24-tst kernel: loop11: detected capacity change from 0 to 103976
+2025-12-07T11:14:34.322563+05:00 ubu24-tst kernel: loop13: detected capacity change from 0 to 1152
+2025-12-07T11:14:34.322564+05:00 ubu24-tst kernel: vboxguest: loading out-of-tree module taints kernel.
+2025-12-07T11:14:34.322570+05:00 ubu24-tst kernel: vboxguest: module verification failed: signature and/or required key missing - tainting kernel
+2025-12-07T11:14:34.322571+05:00 ubu24-tst kernel: RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+2025-12-07T11:14:34.322571+05:00 ubu24-tst kernel: piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+2025-12-07T11:14:34.322572+05:00 ubu24-tst kernel: vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+2025-12-07T11:14:34.322572+05:00 ubu24-tst kernel: Host supports full mouse state reporting, switching to extended mouse integration protocol
+2025-12-07T11:14:34.322573+05:00 ubu24-tst kernel: input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input7
+2025-12-07T11:14:34.322579+05:00 ubu24-tst kernel: cryptd: max_cpu_qlen set to 1000
+2025-12-07T11:14:34.322580+05:00 ubu24-tst kernel: AES CTR mode by8 optimization enabled
+2025-12-07T11:14:34.322580+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: vgaarb: deactivate vga console
+2025-12-07T11:14:34.322581+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] FIFO at 0x00000000c1400000 size is 2048 KiB
+2025-12-07T11:14:34.322581+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] VRAM at 0x00000000c0000000 size is 16384 KiB
+2025-12-07T11:14:34.322582+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Running on SVGA version 2.
+2025-12-07T11:14:34.322587+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, alpha cursor, extended fifo, pitchlock, irq mask, gmr, traces, gmr2, screen object 2, command buffers, command buffers 2, gbobject, 
+2025-12-07T11:14:34.322589+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+2025-12-07T11:14:34.322589+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+2025-12-07T11:14:34.322590+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+2025-12-07T11:14:34.322590+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] DMA map mode: Caching DMA mappings.
+2025-12-07T11:14:34.322590+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Legacy memory limits: VRAM = 16384 KiB, FIFO = 2048 KiB, surface = 507904 KiB
+2025-12-07T11:14:34.322613+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] MOB limits: max mob size = 131072 KiB, max mob pages = 4096
+2025-12-07T11:14:34.322615+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Max GMR ids is 8192
+2025-12-07T11:14:34.322616+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Max number of GMR pages is 1048576
+2025-12-07T11:14:34.322616+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Maximum display memory size is 16384 KiB
+2025-12-07T11:14:34.322617+05:00 ubu24-tst kernel: vboxguest: Successfully loaded version 7.2.2 r170484
+2025-12-07T11:14:34.322617+05:00 ubu24-tst kernel: vboxguest: misc device minor 122, IRQ 20, I/O port c140, MMIO at 00000000c1000000 (size 0x400000)
+2025-12-07T11:14:34.322617+05:00 ubu24-tst kernel: vboxguest: Successfully loaded version 7.2.2 r170484 (interface 0x00010004)
+2025-12-07T11:14:34.322628+05:00 ubu24-tst kernel: ------------[ cut here ]------------
+2025-12-07T11:14:34.322629+05:00 ubu24-tst kernel: WARNING: CPU: 0 PID: 385 at kernel/rcu/tree_plugin.h:746 rcu_sched_clock_irq+0x360/0x370
+2025-12-07T11:14:34.322629+05:00 ubu24-tst kernel: Modules linked in: snd_seq(+) sha1_ssse3 aesni_intel crypto_simd snd_seq_device vmwgfx(+) cryptd drm_ttm_helper rapl snd_timer nls_iso8859_1 snd i2c_piix4 vboxguest(OE) soundcore ttm i2c_smbus joydev input_leds mac_hid serio_raw sch_fq_codel msr parport_pc ppdev lp parport efi_pstore nfnetlink dmi_sysfs ip_tables x_tables autofs4 hid_generic usbhid hid psmouse ahci libahci video e1000 wmi pata_acpi
+2025-12-07T11:14:34.322630+05:00 ubu24-tst kernel: CPU: 0 UID: 0 PID: 385 Comm: (udev-worker) Tainted: G           OE      6.14.0-36-generic #36~24.04.1-Ubuntu
+2025-12-07T11:14:34.322630+05:00 ubu24-tst kernel: Tainted: [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+2025-12-07T11:14:34.329015+05:00 ubu24-tst kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+2025-12-07T11:14:34.329027+05:00 ubu24-tst kernel: RIP: 0010:rcu_sched_clock_irq+0x360/0x370
+2025-12-07T11:14:34.329029+05:00 ubu24-tst kernel: Code: ff ff 65 c6 05 30 5c bb 6a 00 c6 83 41 09 00 00 00 e9 79 fd ff ff f0 80 0b 08 65 81 25 cd 3c bb 6a ff ff ff 7f e9 ca fe ff ff <0f> 0b e9 2d fd ff ff 66 0f 1f 84 00 00 00 00 00 90 90 90 90 90 90
+2025-12-07T11:14:34.329031+05:00 ubu24-tst kernel: RSP: 0000:ffffd1e181473da8 EFLAGS: 00010086
+2025-12-07T11:14:34.329032+05:00 ubu24-tst kernel: RAX: 00000000ffffffff RBX: ffff89f90acc2a00 RCX: 0000000000000000
+2025-12-07T11:14:34.329034+05:00 ubu24-tst kernel: RDX: 0000000000000000 RSI: ffffffff96cea080 RDI: 0000000000000001
+2025-12-07T11:14:34.329035+05:00 ubu24-tst kernel: RBP: ffffd1e181473dc8 R08: 0000000000000000 R09: 0000000000000000
+2025-12-07T11:14:34.329036+05:00 ubu24-tst kernel: R10: 0000000000000000 R11: 0000000000000000 R12: 0000000000000001
+2025-12-07T11:14:34.329038+05:00 ubu24-tst kernel: R13: ffffd1e181473f48 R14: 0000000000000000 R15: ffff89f9bd025e00
+2025-12-07T11:14:34.329039+05:00 ubu24-tst kernel: FS:  00007df777c828c0(0000) GS:ffff89f9bd000000(0000) knlGS:0000000000000000
+2025-12-07T11:14:34.329040+05:00 ubu24-tst kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+2025-12-07T11:14:34.329042+05:00 ubu24-tst kernel: CR2: 00007d4c3ee0a000 CR3: 000000000b14c006 CR4: 00000000000706f0
+2025-12-07T11:14:34.329043+05:00 ubu24-tst kernel: Call Trace:
+2025-12-07T11:14:34.329044+05:00 ubu24-tst kernel:  <TASK>
+2025-12-07T11:14:34.329045+05:00 ubu24-tst kernel:  update_process_times+0x72/0xd0
+2025-12-07T11:14:34.329046+05:00 ubu24-tst kernel:  tick_nohz_handler+0x97/0x170
+2025-12-07T11:14:34.329047+05:00 ubu24-tst kernel:  ? __pfx_tick_nohz_handler+0x10/0x10
+2025-12-07T11:14:34.329049+05:00 ubu24-tst kernel:  __hrtimer_run_queues+0x112/0x2a0
+2025-12-07T11:14:34.329050+05:00 ubu24-tst kernel:  hrtimer_interrupt+0xfd/0x260
+2025-12-07T11:14:34.329051+05:00 ubu24-tst kernel:  __sysvec_apic_timer_interrupt+0x56/0x130
+2025-12-07T11:14:34.329052+05:00 ubu24-tst kernel:  sysvec_apic_timer_interrupt+0x47/0xc0
+2025-12-07T11:14:34.329053+05:00 ubu24-tst kernel:  asm_sysvec_apic_timer_interrupt+0x1b/0x20
+2025-12-07T11:14:34.329054+05:00 ubu24-tst kernel: RIP: 0033:0x56fca3197e60
+2025-12-07T11:14:34.329055+05:00 ubu24-tst kernel: Code: c8 64 48 2b 04 25 28 00 00 00 0f 85 89 03 00 00 48 8d 65 d8 44 89 e0 5b 41 5c 41 5d 41 5e 41 5f 5d c3 0f 1f 84 00 00 00 00 00 <45> 31 e4 eb ce 0f 1f 00 4f 8d 04 2f 48 8d 3d c3 e1 05 00 41 0f be
+2025-12-07T11:14:34.329057+05:00 ubu24-tst kernel: RSP: 002b:00007ffc0915ec60 EFLAGS: 00000202
+2025-12-07T11:14:34.329058+05:00 ubu24-tst kernel: RAX: 0000000000000000 RBX: 000056fcd27cb260 RCX: 0000000000000019
+2025-12-07T11:14:34.329059+05:00 ubu24-tst kernel: RDX: 0000000000000019 RSI: 0000000000000000 RDI: 000056fcd27cb260
+2025-12-07T11:14:34.329060+05:00 ubu24-tst kernel: RBP: 00007ffc0915ecd0 R08: 000056fcd264b010 R09: 0000000000000007
+2025-12-07T11:14:34.329061+05:00 ubu24-tst kernel: R10: 000056fcd27cb770 R11: 8dd1efa00e82b9af R12: 00007ffc0915ed90
+2025-12-07T11:14:34.329062+05:00 ubu24-tst kernel: R13: 000056fcd27c7d80 R14: 00007ffc0915f010 R15: 00007ffc0915eea0
+2025-12-07T11:14:34.329063+05:00 ubu24-tst kernel:  </TASK>
+2025-12-07T11:14:34.329064+05:00 ubu24-tst kernel: ---[ end trace 0000000000000000 ]---
+2025-12-07T11:14:34.329066+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Screen Target display unit initialized
+2025-12-07T11:14:34.329067+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+2025-12-07T11:14:34.329068+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Using command buffers with DMA pool.
+2025-12-07T11:14:34.329069+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] Available shader model: Legacy.
+2025-12-07T11:14:34.329071+05:00 ubu24-tst kernel: audit: type=1400 audit(1765088071.676:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="Discord" pid=488 comm="apparmor_parser"
+2025-12-07T11:14:34.329072+05:00 ubu24-tst kernel: audit: type=1400 audit(1765088071.676:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="1password" pid=487 comm="apparmor_parser"
+2025-12-07T11:14:34.329073+05:00 ubu24-tst kernel: [drm] Initialized vmwgfx 2.20.0 for 0000:00:02.0 on minor 1
+2025-12-07T11:14:34.329074+05:00 ubu24-tst kernel: audit: type=1400 audit(1765088071.700:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="QtWebEngineProcess" pid=494 comm="apparmor_parser"
+2025-12-07T11:14:34.329075+05:00 ubu24-tst kernel: audit: type=1400 audit(1765088071.700:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name=4D6F6E676F444220436F6D70617373 pid=493 comm="apparmor_parser"
+2025-12-07T11:14:34.329077+05:00 ubu24-tst kernel: audit: type=1400 audit(1765088071.709:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="brave" pid=498 comm="apparmor_parser"
+2025-12-07T11:14:34.329078+05:00 ubu24-tst kernel: audit: type=1400 audit(1765088071.717:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="buildah" pid=499 comm="apparmor_parser"
+2025-12-07T11:14:34.329079+05:00 ubu24-tst kernel: audit: type=1400 audit(1765088071.717:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="balena-etcher" pid=497 comm="apparmor_parser"
+2025-12-07T11:14:34.329081+05:00 ubu24-tst kernel: audit: type=1400 audit(1765088071.726:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="busybox" pid=500 comm="apparmor_parser"
+2025-12-07T11:14:34.329082+05:00 ubu24-tst kernel: audit: type=1400 audit(1765088071.730:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="cam" pid=501 comm="apparmor_parser"
+2025-12-07T11:14:34.329083+05:00 ubu24-tst kernel: audit: type=1400 audit(1765088071.740:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ch-run" pid=503 comm="apparmor_parser"
+2025-12-07T11:14:34.329084+05:00 ubu24-tst kernel: fbcon: vmwgfxdrmfb (fb0) is primary device
+2025-12-07T11:14:34.329085+05:00 ubu24-tst kernel: fbcon: Deferring console take-over
+2025-12-07T11:14:34.329087+05:00 ubu24-tst kernel: vmwgfx 0000:00:02.0: [drm] fb0: vmwgfxdrmfb frame buffer device
+2025-12-07T11:14:34.329088+05:00 ubu24-tst kernel: snd_intel8x0 0000:00:05.0: allow list rate for 1028:0177 is 48000
+2025-12-07T11:14:34.329089+05:00 ubu24-tst kernel: Process accounting resumed
+2025-12-07T11:14:34.767749+05:00 ubu24-tst kernel: loop14: detected capacity change from 0 to 8
+2025-12-07T11:14:34.872830+05:00 ubu24-tst kernel: NET: Registered PF_QIPCRTR protocol family
+2025-12-07T11:14:36.483891+05:00 ubu24-tst kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+2025-12-07T11:14:36.522807+05:00 ubu24-tst kernel: 06:14:36.522066 main     VBoxService 7.2.2 r170484 (verbosity: 0) linux.amd64 (Sep 10 2025 18:43:27) release log
+2025-12-07T11:14:36.522831+05:00 ubu24-tst kernel: 06:14:36.522070 main     Log opened 2025-12-07T06:14:36.522055000Z
+2025-12-07T11:14:36.522832+05:00 ubu24-tst kernel: 06:14:36.522228 main     OS Product: Linux
+2025-12-07T11:14:36.522833+05:00 ubu24-tst kernel: 06:14:36.522270 main     OS Release: 6.14.0-36-generic
+2025-12-07T11:14:36.522834+05:00 ubu24-tst kernel: 06:14:36.522308 main     OS Version: #36~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Oct 15 15:45:17 UTC 2
+2025-12-07T11:14:36.522835+05:00 ubu24-tst kernel: 06:14:36.522345 main     Executable: /opt/VBoxGuestAdditions-7.2.2/sbin/VBoxService
+2025-12-07T11:14:36.522836+05:00 ubu24-tst kernel: 06:14:36.522346 main     Process ID: 1399
+2025-12-07T11:14:36.522837+05:00 ubu24-tst kernel: 06:14:36.522346 main     Package type: LINUX_64BITS_GENERIC
+2025-12-07T11:14:36.534707+05:00 ubu24-tst kernel: 06:14:36.534504 main     7.2.2 r170484 started. Verbose level = 0
+2025-12-07T11:14:36.538741+05:00 ubu24-tst kernel: 06:14:36.538055 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+2025-12-07T11:14:37.396821+05:00 ubu24-tst kernel: kauditd_printk_skb: 147 callbacks suppressed
+2025-12-07T11:14:37.396843+05:00 ubu24-tst kernel: audit: type=1400 audit(1765088077.395:159): apparmor="DENIED" operation="capable" class="cap" profile="/usr/sbin/cupsd" pid=1403 comm="cupsd" capability=12  capname="net_admin"
+2025-12-07T11:14:42.700918+05:00 ubu24-tst kernel: rfkill: input handler disabled
+2025-12-07T11:14:54.482736+05:00 ubu24-tst kernel: rfkill: input handler enabled
+2025-12-07T11:14:57.893718+05:00 ubu24-tst kernel: rfkill: input handler disabled
+2025-12-07T11:15:18.017765+05:00 ubu24-tst kernel: audit: type=1400 audit(1765088118.015:160): apparmor="DENIED" operation="open" class="file" profile="snap.firefox.firefox" name="/proc/pressure/memory" pid=3091 comm="firefox" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2025-12-07T12:00:59.860734+05:00 ubu24-tst kernel: audit: type=1400 audit(1765090859.856:161): apparmor="DENIED" operation="open" class="file" profile="snap.firmware-updater.firmware-notifier" name="/proc/sys/vm/max_map_count" pid=4951 comm="firmware-notifi" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0

@@ -1,0 +1,8 @@
+update-alternatives 2025-12-03 22:39:56: run with --remove editor /usr/bin/code
+update-alternatives 2025-12-03 22:40:41: run with --install /usr/bin/editor editor /usr/bin/code 0
+update-alternatives 2025-12-03 22:40:45: run with --install /usr/bin/editor editor /usr/bin/code 0
+update-alternatives 2025-12-03 22:41:15: run with --install /usr/share/gnome-shell/gdm-theme.gresource gdm-theme.gresource /usr/share/gnome-shell/gnome-shell-theme.gresource 10
+update-alternatives 2025-12-03 22:41:30: run with --install /usr/bin/gstreamer-codec-install gstreamer-codec-install /usr/libexec/pk-gstreamer-install 80
+update-alternatives 2025-12-03 22:41:36: run with --install /etc/pam.d/gdm-smartcard gdm-smartcard /etc/pam.d/gdm-smartcard-sssd-exclusive 50
+update-alternatives 2025-12-03 22:41:36: run with --install /etc/pam.d/gdm-smartcard gdm-smartcard /etc/pam.d/gdm-smartcard-sssd-or-password 40
+update-alternatives 2025-12-03 22:41:36: run with --install /etc/pam.d/gdm-smartcard gdm-smartcard /etc/pam.d/gdm-smartcard-pkcs11-exclusive 30
