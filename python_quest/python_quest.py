@@ -1,9 +1,8 @@
 def generate_report(error_count, avg_cpu, offline_servers):
-    print("==== ОТЧЁТ ====")
+    print("\n==== ОТЧЁТ ====")
     print(f"Ошибок: {error_count}")
     print(f"Средняя загрузка CPU: {aver_usage:.2f}")
-    print("Серверы со статусом 'offline':")
-    print(offline_servers)
+    print(f"Серверы со статусом 'offline':{offline_servers}")
 
 print("Разбор логов")
 logs = [
@@ -63,7 +62,7 @@ servers = [
     ("web-2", "offline"),
     ("db-1", "online"),
     ("cache-1", "offline"),
-    ("cache-1", "offline")
+    ("cache-2", "offline")
 ]
 
 # 1. Выводим имена серверов со статусом "offline"
